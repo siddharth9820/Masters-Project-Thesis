@@ -1,0 +1,281 @@
+\documentclass[12pt, a4paper, oneside]{Thesis} % Paper size, default font size and one-sided paper
+\usepackage{wrapfig}
+\usepackage{lscape}
+\usepackage{rotating}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{amsmath}
+
+
+\usepackage{lineno,hyperref}
+\modulolinenumbers[5]
+
+
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{array}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{stackengine}
+\usepackage{url}
+\usepackage{numprint}
+\usepackage{caption}
+
+\usepackage{booktabs}  
+\usepackage{siunitx}
+%\usepackage[showframe=false]{geometry}
+\usepackage{subfigure}
+
+\nprounddigits{3}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{M}[1]{>{\centering\arraybackslash}m{#1}}
+
+\setstackEOL{\#}
+\setstackgap{L}{12pt}
+
+
+%\usepackage{subcaption} %incompatible with subfig
+\graphicspath{{Pictures/}} % Specifies the directory where pictures are stored
+\usepackage[numbers,square]{natbib} % Use the natbib reference package - read up on this to edit the reference style; if you want text (e.g. Smith et al., 2012) for the in-text references (instead of numbers), remove 'numbers' v
+
+\hypersetup{urlcolor=black, colorlinks=false} % Colors hyperlinks in blue - change to black if annoyingv`	
+
+\thesistitle{PySchedCL: A Framework for Automatically Exploiting Concurrency in Heterogeneous Data-Parallel Applications}
+\supervisor{Professor Soumyajit Dey}
+\degree{Dual Degree (B.Tech + M.Tech)}
+\degreemajor{Computer Science and Engineering}
+\authors{Siddharth Singh}
+\rollno{15CS30032}
+\university{Indian Institute of Technology Kharagpur}
+\department{Department of Computer Science and Engineering}
+\unisite{http://www.iitkgp.ac.in}
+\depsite{http://cse.iitkgp.ac.in/}
+\placeshrt{Kharagpur}
+\placelng{Kharagpur - 721302, India}
+\datesub{June 2, 2020}
+\datesig{June 2, 2020}
+\semsub{Spring Semester, 2019-20}
+\keywords{High Performance Computing}
+\coursecd{M.Tech Project - II Thesis }
+
+\title{\ttitle} % Defines the thesis title - don't touch this
+\begin{document}
+%\makeatletter
+%\renewcommand*{\NAT@nmfmt}[1]{\textsc{#1}}
+%\makeatother
+
+% prints author names as small caps
+
+
+\frontmatter % Use roman page numbering style (i, ii, iii, iv...) for the pre-content pages
+
+\setstretch{1.6} % Line spacing of 1.6 (double line spacing)
+
+% Define the page headers using the FancyHdr package and set up for one-sided printing
+\fancyhead{} % Clears all page headers and footers
+\rhead{\thepage} % Sets the right side header to show the page number
+\lhead{} % Clears the left side page header
+
+%\pagestyle{fancy} % Finally, use the "fancy" page style to implement the FancyHdr headers
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % New command to make the lines in the title page
+
+% PDF meta-data
+\hypersetup{pdftitle={\ttitle}}
+\hypersetup{pdfsubject=\subjectname}
+\hypersetup{pdfauthor=\authornames}
+\hypersetup{pdfkeywords=\keywordnames}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+\maketitle
+%\titlepg % Add a gap in the Contents, for aesthetics
+
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	DECLARATION PAGE
+%	Your institution may give you a different text to place here
+%----------------------------------------------------------------------------------------
+
+
+\Declaration% Add a gap in the Contents, for aesthetics
+
+
+%----------------------------------------------------------------------------------------
+%	CERTIFICATE PAGE
+%----------------------------------------------------------------------------------------
+
+\addtotoc{Certificate} % Add the "Abstract" page entry to the Contents
+
+\certificate{\addtocontents{toc}{} % Add a gap in the Contents, for aesthetics
+
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT PAGE
+%----------------------------------------------------------------------------------------
+
+\addtotoc{Abstract} % Add the "Abstract" page entry to the Contents
+
+\abstract{\addtocontents{toc}{} % Add a gap in the Contents, for aesthetics
+% The past decade has seen diminishing returns from Moore's Law because of increasing fabrication costs,
+% technological barriers and power density limits. As a result Heterogeneous Computing architectures (like multi-core CPUs with a GPU) have been adopted almost universally to optimise performance. 
+% These architectures have been complemented well by parallel programming languages like CUDA and OpenCL which have been used to build several high performance solutions in a diverse set of fields.
+% The focus of this thesis is the latter i.e. OpenCL, due to it being the most pervasive, cross-vendor, open standard for heterogenous parallel programming. 
+% Inspite of the ubiquitous nature of heterogenous computing, programmers require a considerable amount of expertise to efficiently design data parallel algorithms. Further, due to the low level nature of OpenCL, there is a lot of programming 
+% overhead to ensure correctness during execution and data transfer via synchornisation. The primary aim of 
+% our framework - PyschedCL is to address the above issues in designing OpenCL applications and help a novice
+% end user bridge the gap between homogenous and heterogenous computing systems. It completely eliminates the programming overhead by automating 
+% the synchornisation routines to ensure correctness. The scheduling backend also comprises of a Machine Learning based 
+% scheduling policy which can intelligently map the underlying elements of an application to the target heterogenous platform. The modular nature of the framework allows the user to 
+% replace the scheduling policy of the backend with a custom scheduling algorithm too. This can help researchers design and validate several scheduling algorithms. The framework tries to exploit 
+In the past decade, high performance compute capabilities exhibited by heterogeneous GPGPU platforms have led to the popularity of  data parallel programming languages such as CUDA and OpenCL. Such languages, however,  involve a steep learning curve as well as developing an extensive understanding of the underlying architecture of the compute devices in heterogeneous platforms. This has led to the emergence of several High Performance Computing frameworks which provide high-level abstractions for easing the development of data-parallel applications on heterogeneous platforms. However, the scheduling decisions undertaken by such frameworks do not sufficiently exploit the concurrency inherent in a data parallel application to its full potential. We propose a framework called {\em PySchedCL}, whose design philosophy is along similar lines as that of other HPC frameworks, with a specific focus on exploring fine-grained concurrency aware scheduling decisions that completely harness the power of heterogeneous CPU/GPU architectures. We showcase the efficacy of such scheduling decisions over popular dynamic scheduling schemes by conducting extensive experimental evaluations for a Machine Learning based inferencing application. We also experiment with automated coarse-grained scheduling algorithm that rely on Machine learning to schedule heterogenous applications. 
+
+
+}
+
+\clearpage % Start a new page
+
+
+
+%----------------------------------------------------------------------------------------
+%	ACKNOWLEDGEMENTS
+%----------------------------------------------------------------------------------------
+
+\setstretch{1.3} % Reset the line-spacing to 1.3 for body text (if it has changed)
+
+\acknowledgements{\addtocontents{toc}{}%\vspace{1em}} % Add a gap in the Contents, for aesthetics
+
+I am deeply grateful to my supervisor \textbf{Prof. Soumyajit Dey} who gave me the opportunity to work on this project. I am thankful for his aspiring guidance, invaluably constructive friendly advice during the course of the project. I am sincerely grateful to him for sharing his truthful and illuminating views on a number of issues related to the project. I owe a lot to my teachers in the Department of Computer Science and Engineering, Indian Institute of Technology, Kharagpur, who have instilled in me the scientific spirit of inquiry, experimentation, observation and inference, without which I would not have been able to produce this work. Also, I am very thankful to \textbf{Mr. Anirban Ghose} involved in this project who constantly motivated me to overcome all the challenges and helped me whenever I faced any issues.
+
+
+}
+\clearpage % Start a new page
+
+%----------------------------------------------------------------------------------------
+%	LIST OF CONTENTS/FIGURES/TABLES PAGES
+%----------------------------------------------------------------------------------------
+
+\pagestyle{fancy} % The page style headers have been "empty" all this time, now use the "fancy" headers as defined before to bring them back
+
+\lhead{\emph{Contents}} % Set the left side page header to "Contents"
+\tableofcontents % Write out the Table of Contents
+
+\lhead{\emph{List of Figures}} % Set the left side page header to "List of Figures"
+\listoffigures % Write out the List of Figures
+
+\lhead{\emph{List of Tables}} % Set the left side page header to "List of Tables"
+\listoftables % Write out the List of Tables
+
+%----------------------------------------------------------------------------------------
+%	ABBREVIATIONS
+%----------------------------------------------------------------------------------------
+
+% \clearpage % Start a new page
+
+% \setstretch{1.5} % Set the line spacing to 1.5, this makes the following tables easier to read
+
+% \lhead{\emph{Abbreviations}} % Set the left side page header to "Abbreviations"
+% \listofsymbols{ll} % Include a list of Abbreviations (a table of two columns)
+% {
+% \textbf{FEA} & \textbf{F}inite \textbf{E}lement \textbf{A}nalysis \\
+% \textbf{FEM} & \textbf{F}inite \textbf{E}lement \textbf{M}ethod \\
+% \textbf{LVDT} & \textbf{L}inear \textbf{V}ariable \textbf{D}ifferential \textbf{T}ransformer \\
+% \textbf{RC} & \textbf{R}einforced \textbf{C}oncrete
+% %\textbf{Acronym} & \textbf{W}hat (it) \textbf{S}tands \textbf{F}or \\
+% }
+
+%----------------------------------------------------------------------------------------
+%	PHYSICAL CONSTANTS/OTHER DEFINITIONS
+%----------------------------------------------------------------------------------------
+%
+%\clearpage % Start a new page
+%
+%\lhead{\emph{Physical Constants}} % Set the left side page header to "Physical Constants"
+%
+%\listofconstants{lrcl} % Include a list of Physical Constants (a four column table)
+%{
+%Speed of Light & $c$ & $=$ & $2.997\ 924\ 58\times10^{8}\ \mbox{ms}^{-\mbox{s}}$ (exact)\\
+%% Constant Name & Symbol & = & Constant Value (with units) \\
+%}
+
+%----------------------------------------------------------------------------------------
+%	SYMBOLS
+%----------------------------------------------------------------------------------------
+
+% \clearpage % Start a new page
+
+% \lhead{\emph{Symbols}} % Set the left side page header to "Symbols"
+
+% \listofnomenclature{lll} % Include a list of Symbols (a two column table)
+% {
+% $D^{el}$ & elasticity tensor \\
+% $\sigma$ & stress tensor \\
+% $ \varepsilon $ & strain tensor \\
+% % Symbol & Name & Unit \\
+
+% }
+
+%----------------------------------------------------------------------------------------
+%	DEDICATION
+%----------------------------------------------------------------------------------------
+%
+%\setstretch{1.3} % Return the line spacing back to 1.3
+%
+%\pagestyle{empty} % Page style needs to be empty for this page
+%
+%\dedicatory{For/Dedicated to/To my\ldots} % Dedication text
+%
+%\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+\mainmatter % Begin numeric (1,2,3...) page numbering
+
+\pagestyle{fancy} % Return the page headers back to the "fancy" style
+
+% Include the chapters of the thesis as separate files from the Chapters folder
+% Uncomment the lines as you write the chapters
+
+\input{Chapters/Chapter1}
+%\input{Chapters/Chapter4} 
+%\input{Chapters/Chapter5} 
+%\input{Chapters/Chapter6} 
+%\input{Chapters/Chapter7} 
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - APPENDICES
+%----------------------------------------------------------------------------------------
+
+\addtocontents{toc}{\vspace{2em}} % Add a gap in the Contents, for aesthetics
+
+\appendix % Cue to tell LaTeX that the following 'chapters' are Appendices
+
+% Include the appendices of the thesis as separate files from the Appendices folder
+% Uncomment the lines as you write the Appendices
+
+\input{Appendices/AppendixA}
+%\input{Appendices/AppendixB}
+%\input{Appendices/AppendixC}
+
+\addtocontents{toc}{} % Add a gap in the Contents, for aesthetics
+
+\backmatter
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+%\nocite{*}
+\label{Bibliography}
+
+\lhead{\emph{Bibliography}} % Change the page header to say "Bibliography"
+
+\bibliographystyle{apalike} % Use the "custom" BibTeX style for formatting the Bibliography
+
+\bibliography{Bibliography} % The references (bibliography) information are stored in the file named "Bibliography.bib"
+
+\end{document}  

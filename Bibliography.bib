@@ -1,0 +1,123 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% http://bibdesk.sourceforge.net/
+
+%% Created for Sarthak Jain at 2016-09-29 17:28:05 +0530 
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+
+
+
+% This file was created with JabRef 2.10.
+% Encoding: UTF-8
+
+@article{nvidia,
+  title={NVIDIA GPU Computing SDK},
+  author={Nvidia},
+  url = {https://developer.nvidia.com/opencl},
+  year={2010}
+}
+
+@article{stone2010opencl,
+  title={OpenCL: A Parallel Programming Standard for Heterogeneous Computing Systems},
+  author={Stone, John E and Gohara, David and Shi, Guochun},
+  journal={Computing in science \& engineering},
+  volume={12},
+  number={3},
+  pages={66},
+  year={2010},
+  publisher={IEEE Computer Society}
+}
+
+@article{pekka,
+title = "Exploiting Task Parallelism with OpenCL: A Case Study",
+abstract = "While data parallelism aspects of OpenCL have been of primary interest due to the massively data parallel GPUs being on focus, OpenCL also provides powerful capabilities to describe task parallelism. In this article we study the task parallel concepts available in OpenCL and find out how well the different vendor-specific implementations can exploit task parallelism when the parallelism is described in various ways utilizing the command queues. We show that the vendor implementations are not yet capable of extracting kernel-level task parallelism from in-order queues automatically. To assess the potential performance benefits of in-order queue parallelization, we implemented such capabilities to an open source implementation of OpenCL. The evaluation was conducted by means of a case study of an advanced noise reduction algorithm described as a multi-kernel OpenCL application.",
+author = "Pekka J{\"a}{\"a}skel{\"a}inen and Ville Korhonen and Matias Koskela and Jarmo Takala and Karen Egiazarian and Aram Danielyan and Crist{\'o}v{\~a}o Cruz and Price James and Simon McIntosh-Smith",
+note = "EXT={"}Danielyan, Aram{"}",
+year = "2018",
+month = "10",
+day = "15",
+doi = "10.1007/s11265-018-1416-1",
+language = "English",
+journal = "Journal of Signal Processing Systems",
+issn = "1939-8018",
+publisher = "Springer Verlag",
+}
+
+@InProceedings{henry2014toward,
+author="Henry, Sylvain
+and Denis, Alexandre
+and Barthou, Denis
+and Counilh, Marie-Christine
+and Namyst, Raymond",
+editor="Silva, Fernando
+and Dutra, In{\^e}s
+and Santos Costa, V{\'i}tor",
+title="Toward OpenCL Automatic Multi-Device Support",
+booktitle="Euro-Par 2014 Parallel Processing",
+year="2014",
+publisher="Springer International Publishing",
+address="Cham",
+pages="776--787",
+abstract="To fully tap into the potential of today heterogeneous machines, offloading parts of an application on accelerators is no longer sufficient. The real challenge is to build systems where the application would permanently spread across the entire machine, that is, where parallel tasks would be dynamically scheduled over the full set of available processing units. In this paper we present SOCL, an OpenCL implementation that improves and simplifies the programming experience on heterogeneous architectures. SOCL enables applications to dynamically dispatch computation kernels over processing devices so as to maximize their utilization. OpenCL applications can incrementally make use of light extensions to automatically schedule kernels in a controlled manner on multi-device architectures. We demonstrate the relevance of our approach by experimenting with several OpenCL applications on a range of heterogeneous architectures. We show that performance portability is enhanced by using SOCL extensions.",
+isbn="978-3-319-09873-9"
+}
+
+@InProceedings{augonnet2011starpu,
+author="Augonnet, C{\'e}dric
+and Thibault, Samuel
+and Namyst, Raymond
+and Wacrenier, Pierre-Andr{\'e}",
+editor="Sips, Henk
+and Epema, Dick
+and Lin, Hai-Xiang",
+title="StarPU: A Unified Platform for Task Scheduling on Heterogeneous Multicore Architectures",
+booktitle="Euro-Par 2009 Parallel Processing",
+year="2009",
+publisher="Springer Berlin Heidelberg",
+address="Berlin, Heidelberg",
+pages="863--874",
+abstract="In the field of HPC, the current hardware trend is to design multiprocessor architectures that feature heterogeneous technologies such as specialized coprocessors (e.g. Cell/BE SPUs) or data-parallel accelerators (e.g. GPGPUs).",
+isbn="978-3-642-03869-3"
+}
+
+@article{multicl,
+	author={Ashwin M. Aji and Antonio J. Peña and Pavan Balaji and Wu-chun Feng},
+	journal={Parallel Computing},
+	pages={37-55},
+	title={MultiCL: Enabling automatic scheduling for task-parallel workloads in OpenCL.},
+	volume=58,
+	year=2016,
+}
+
+@article{pyopencl,
+  title={PyCUDA and PyOpenCL: A scripting-based approach to GPU run-time code generation},
+  author={Kl{\"o}ckner, Andreas and Pinto, Nicolas and Lee, Yunsup and Catanzaro, Bryan and Ivanov, Paul and Fasih, Ahmed},
+  journal={Parallel Computing},
+  volume={38},
+  number={3},
+  pages={157--174},
+  year={2012},
+  publisher={Elsevier}
+}
+
+@article{DBLP:journals/corr/VaswaniSPUJGKP17,
+  author    = {Ashish Vaswani and
+               Noam Shazeer and
+               Niki Parmar and
+               Jakob Uszkoreit and
+               Llion Jones and
+               Aidan N. Gomez and
+               Lukasz Kaiser and
+               Illia Polosukhin},
+  title     = {Attention Is All You Need},
+  journal   = {CoRR},
+  volume    = {abs/1706.03762},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1706.03762},
+  archivePrefix = {arXiv},
+  eprint    = {1706.03762},
+  timestamp = {Mon, 13 Aug 2018 16:48:37 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/VaswaniSPUJGKP17.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
