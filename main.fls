@@ -173,10 +173,16 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/graphics/lscape.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/graphics/lscape.sty
-INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/lineno/lineno.sty
-INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/lineno/lineno.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/algorithms/algorithm.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/algorithms/algorithm.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/float/float.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/lineno/lineno.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/lineno/lineno.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/placeins/placeins.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/placeins/placeins.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/stackengine/stackengine.sty
@@ -332,9 +338,13 @@ INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/json_file.pdf
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/DAGJson.pdf
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/DAGJson.pdf
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/DAGJson.pdf
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/SchedulingEngine.pdf
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/SchedulingEngine.pdf
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/SchedulingEngine.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TaskObject.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TaskObject.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TaskObject.pdf
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Appendices/AppendixA.tex
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Appendices/AppendixA.tex
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.bbl
