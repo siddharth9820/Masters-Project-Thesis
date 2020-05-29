@@ -64,10 +64,67 @@ An overview of the software architecture for {\em PySchedCL} is depicted in Fig.
     \par Let us consider an example DAG comprising three kernels as depicted in Fig. \ref{fig:OpenCLDAG}. Each kernel now is designated by a unique identifier field called $id$. The kernel with id $0$ represents matrix multiplication kernel which takes as input two matrices of dimensions $M \times K$ and $K \times N$ and produces an output of dimension $M \times N$. The corresponding sizes of the input and output buffers are specified inside the JSON file of the kernel using these symbolic variables. The kernel with id $1$ represents a vector addition kernel which takes two vectors of size $N$ and produces one output vector of size $N$. The kernel with id $2$ represents  matrix-matrix multiplication kernel which takes as input an $M\times N$ matrix and $N\times 1$ vector and produces an $M \times 1$ vector. Again, the corresponding sizes of the input and output buffers for these kernels are specified in the individual JSON files of the kernels. The outputs of the kernels $1$ and $2$ are used by the kernel with id $2$. The dependency information for the same is specified as a set of edges of the form $k_i,b_r \rightarrow k_j,b_s$, where $k_i$,$k_j$ represent kernel ids that are dependent, $b_r$ is an output buffer of $k_i$ and $b_s$ is an input buffer of $k_j$ i.e. $(k_i,b_r) \in E_O$, $(b_s,k_j) \in E_I$ and $b_r,b_s \in E$. The ids for the buffers $b_r$ and $b_s$ are represented by their corresponding argument positions in the function call for the kernels. For example, if we consider $0,2 \rightarrow 2, 0$, the output buffer specified in argument 2 of kernel $0$ will be used as input buffer specified in argument 0 of kernel $2$. As guidance parameters, the user can specify the device preference for each kernel using the {\tt dev} field. In Fig. \ref{fig:json}, the kernels with ids 0 and 2 are mapped as a task component to the GPU device while kernel with id $1$ is mapped to the CPU device. The framework automatically takes care of setting up command queues specified in the fields $cpuQ$ and $gpuQ$ so as to maximally exploit concurrency using the scheduling engine which is discussed next.
     
     \section{Scheduling Backend}
-    An overview of the scheduling backend is depicted in Fig. \ref{fig:schedbackend}. We explain the working principle of the backend with the help of the procedure $schedule$ highlighted in Algorithm \ref{algo:dispatch} for scheduling. The input to $schedule$ is the application graph $G$ and the set of devices in the target platform $\mathcal{P}$. The procedure first parses the input specification and extracts the set of task components that are ready for dispatch (line 2). We say a task component $T$ is ready for dispatch if for every kernel $k_i \in FRONT(T)$, i) there exists no predecessor or ii) all predecessors of $k_i$ have finished execution. Each such task component is pushed into the centralized task queue $\mathcal{F}$ for dispatch. We note that task components can be individual kernels or a collection of kernels as specified by the guidance parameters in the specification file. For the former case, the decisions are coarse-grained in nature i.e. all the operations associated with a kernel $k_i$ are finished before proceeding to execute a successor kernel $k_j$.
+    An overview of the scheduling backend is depicted in Fig. \ref{fig:schedbackend}. We explain the working principle of the backend with the help of the procedure $schedule$ highlighted in Algorithm \ref{algo:dispatch} for scheduling. The input to $schedule$ is the application graph $G$ and the set of devices in the target platform $\mathcal{P}$. The procedure first parses the input specification and extracts the set of task components that are ready for dispatch (line 2).
+
+    \begin{definition}
+        \emph{We say a task component $T$ is \textbf{ready for dispatch} if for any kernel $k_i \in FRONT(T)$, i) there exists no predecessor or ii) all predecessors of $k_i$ have finished execution.}
+    \end{definition} 
+
+    \begin{algorithm}[H]
+		
+		\caption{Scheduling in PySchedCL\label{algo:dispatch}}
+		\textbf{Input: } $G$ - an OpenCL Application DAG, $\mathcal{P}$ - set of target platform devices
+		\begin{algorithmic}[1]
+			\Procedure{schedule}{$G$,$\mathcal{P}$}
+			\State $\mathcal{F} \leftarrow get\_free\_task\_components(G)$ , $\mathcal{A} \leftarrow \mathcal{P}$
+			\While{all kernels of $G$ not finished}
+			\While{$\mathcal{A}$ contains a device and $\mathcal{F}$ is not empty}
+			\State $T,Q \leftarrow select(\mathcal{F},\mathcal{A})$
+			\State $enq(T,Q)$
+			\State $set\_callbacks(T,Q)$
+			\State $dispatch(T,Q)$
+			\EndWhile
+			\EndWhile
+			\EndProcedure
+			\Function{enq}{$T_d$,$\mathcal{Q}$} 
+			\State free\_kernels $\leftarrow get\_ready(T_d)$
+			\While{all kernels of $T_d$ not processed}		
+			\State $k \leftarrow free\_kernels$
+			\State $q \leftarrow pop(\mathcal{Q})$
+			\State $enqueue(k,q)$
+			\State $set\_dependencies(k,\mathcal{Q})$
+			\State $push(q,\mathcal{Q})$
+			\State $update\_processed(free\_kernels)$
+			\EndWhile
+			\EndFunction
+		\end{algorithmic}
+	\end{algorithm}
+
+    
+   
+    Each such task component is pushed into the centralized task queue $\mathcal{F}$ for dispatch. We note that task components can be individual kernels or a collection of kernels as specified by the guidance parameters in the specification file. For the former case, the decisions are coarse-grained in nature i.e. all the operations associated with a kernel $k_i$ are finished before proceeding to execute a successor kernel $k_j$.
     The set $\mathcal{A}$ represents the set of available devices and is initialized to all the devices contained in $\mathcal{P}$. The procedure $schedule$ operates on tasks belonging to the task queue $\mathcal{F}$ by selecting and dispatching free task components whenever there exists an available device in $\mathcal{A}$ (lines 4-8). This is continued until all kernels of the DAG have been processed (line 3). The $select$ routine is used to select a task component $T$ and an empty command queue data structure $\mathcal{Q}$ for an available device belonging to $\mathcal{A}$. The number of command queues to be used in $\mathcal{Q}_d$ for a device $d$ is specified as a guidance parameter by the user in the specification file. 
 	\begin{figure}[ht]
 		\centering
 		\includegraphics[scale=0.35]{Pictures/SchedulingEngine.pdf}
 		\caption{\small Command Queue Setup\label{fig:schedbackend}}
+    \end{figure}
+    
+    Given any task component $T_d$ and the empty command queue data structure $\mathcal{Q}$ for a device $d$, the $enq$ procedure is used to populate  $\mathcal{Q}$ with operations pertaining to kernels belonging to $T_d$ as discussed in Section \ref{sec:prob}.  We explain the working principle of the function with the help of an illustrative example depicted in Fig. \ref{fig:dispatch} where we map a task component comprising 5 kernels to a GPU device using a total of 3 command queues. 
+	\begin{figure}[ht]
+		\centering
+		\includegraphics[scale=0.45]{Pictures/TaskObject.pdf}
+		\caption{\small Command Queue Setup\label{fig:dispatch}}
 	\end{figure}
+	Given the task component, the function first identifies the set of free kernels ready for dispatch and stores them in the list $ready\_kernels$. (line 10). A free kernel of a task component represents either a kernels in $FRONT(T)$ or a kernel whose predecessors have been processed for setting up $\mathcal{Q}$. A free kernel $k$ is first selected from $ready\_kernels$ (line 10) and a queue $q$ is selected from $V_Q$ of $\mathcal{Q}$ using $pop(\mathcal{Q})$(line 5). The list of command queues $V_Q$ in $\mathcal{Q}$ is maintained as a circular queue by the framework. The required read,write and ndrange operations of kernel $k$ are next pushed to command queue $q \in V_Q$. In Fig. \ref{fig:dispatch}, we observe for kernel $0$, two write operations $w_0^{(0)},w_1^{(0)}$ being pushed first to $q_0$ followed by a barrier, and an ndrange operation $e^{0}$. Since kernel $0 \in FRONT(T)$, the writes correspond to the two inter edges. The $enq$ function next sets up dependencies between relevant operations i.e. $E_Q$ of $\mathcal{Q}$ using $set\_dependencies()$ (line 15). For kernel $0$, we have no dependencies to set. Once this is done, the command queue $q$ is pushed back to $V_Q$ of $\mathcal{Q}$ for future use if required. The list $ready\_kernels$ is updated with the sucessors of $k$ (line 9). From Fig. \ref{fig:dispatch}, we observe that for kernels $1$ and $2$ belonging to $IN(T)$, only the isloated write operations $w_0^{(1)}$ and  $w_1^{(2)}$ are added to $q_1$ and $q_2$ respectively. This is followed by the barrier operations and the respective ndrange operations $e^{1}$ and $e^{2}$. The $set\_dependencies()$ function sets up dependencies between $e^{0}$, $e^{1}$ and $e^{0}$, $e^{2}$. Furthermore, since $w_0^{1}$ and $w_1^{2}$ are mapped to different command queues $q_1$ and $q_2$, they can execute in parallel while operations in $q_0$ are executing. After using queue $q2$, queues $q0$ and $q1$ are again used   for kernels with ids $3$ and $4$ respectively. Since they belong to $END(T)$, only the execute operations followed by barrier and read operations are pushed to the respective command queues. We note for coarse-grained scheduling decisions,  all relevant operations will be enqueued to one single command queue in $\mathcal{Q}$.
+	\par Once the command queue data structure $\mathcal{Q}$ has been populated, the {\tt dispatch} function is called which is responsible for enqueuing the command queues with read,write and ndrange operations as specified in $\mathcal{Q}$. Once this call is made, the associated command queues are locked i.e. they cannot be used by other task components that are ready for dispatch.  Once all relevant {\tt clEnqueue } OpenCL API calls are made, the {\tt clFlush()} function is called once per command queue in $\mathcal{Q}$ to ensure that the commands are submitted to the device. We further note, if multiple tasks components are ready for dispatch, then multiple {dispatch} calls are initiated in parallel, i.e. separate threads are spawned which are responsible for setting up the command queues for each device.
+	\par The $set\_callback$ function (line 7) is used to set up callback functions  for the read operations corresponding to every write from output buffer $b_i$ to $b_j$ such that $(k_r,b_i) \in E_O$ and $k_r \in END(T_d)$ and $b_i,b_j$ is an intra-edge. The callbacks are set using {\tt clSetEventCallback()} function for the read operations via events as discussed earlier. Since the successor kernels of $k_r$ belong to a different task component mapped to a different device, the buffer $b_i$ needs to get copied back to the host. For kernels getting mapped to CPU devices sharing the same memory space as that of the host, the callbacks are associated with the ndrange operations of each kernel $k_i$, since buffer reads and writes in this context are redundant.
+    \par The callbacks are thread-safe i.e. they perform atomic updates to the shared data structures $\mathcal{F}$ and $\mathcal{A}$. As depicted in Fig. \ref{fig:schedbackend}, each callback function is responsible for two distinct operations - i) adding successor task components which are ready for dispatch to the task queue and ii) releasing the command queues which were locked, once all kernels of the the task component finish execution. Since, it may be possible that multiple callbacks can execute simultaneously as a consequence of multiple kernels belonging to the task component $T_d$ finishing at the same time, it is imperative that the callback functions execute in a thread-safe manner to ensure correctness in updating the respective queues. 
+    
+    \par The algorithm $schedule$ highlights a generic procedure for scheduling algorithms in our framework. As discussed before, the end user can override the select routine and experiment with different scheduling policies. We implement two dynamic coarse-grained scheduling algorithms and one static fine-grained scheduling algorithm and present experimental results for the same, continuing with our  motivational example from Section.
+
+
+
+
+
+    
