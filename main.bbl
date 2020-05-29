@@ -60,6 +60,11 @@ Henry, S., Denis, A., Barthou, D., Counilh, M.-C., and Namyst, R. (2014).
   2014 Parallel Processing}, pages 776--787, Cham. Springer International
   Publishing.
 
+\bibitem[Hochreiter and Schmidhuber, 1997]{hochreiter1997long}
+Hochreiter, S. and Schmidhuber, J. (1997).
+\newblock Long short-term memory.
+\newblock {\em Neural computation}, 9(8):1735--1780.
+
 \bibitem[{Hoshino} et~al., 2013]{openacc}
 {Hoshino}, T., {Maruyama}, N., {Matsuoka}, S., and {Takaki}, R. (2013).
 \newblock Cuda vs openacc: Performance case studies with kernel benchmarks and
@@ -102,9 +107,26 @@ Kofler, K., Grasso, I., Cosenza, B., and Fahringer, T. (2013).
   partitioning.
 \newblock In {\em SC}, pages 149--160. ACM.
 
+\bibitem[Mikolov et~al., 2013]{NIPS2013_5021}
+Mikolov, T., Sutskever, I., Chen, K., Corrado, G.~S., and Dean, J. (2013).
+\newblock Distributed representations of words and phrases and their
+  compositionality.
+\newblock In Burges, C. J.~C., Bottou, L., Welling, M., Ghahramani, Z., and
+  Weinberger, K.~Q., editors, {\em Advances in Neural Information Processing
+  Systems 26}, pages 3111--3119. Curran Associates, Inc.
+
 \bibitem[Nvidia, 2010]{nvidia}
 Nvidia (2010).
 \newblock Nvidia gpu computing sdk.
+
+\bibitem[Pennington et~al., 2014]{Pennington14glove:global}
+Pennington, J., Socher, R., and Manning, C.~D. (2014).
+\newblock Glove: Global vectors for word representation.
+\newblock In {\em In EMNLP}.
+
+\bibitem[Pouchet, 2012]{polybench}
+Pouchet, L.-N. (2012).
+\newblock Polybench benchmark suite.
 
 \bibitem[{Steuwer} et~al., 2011]{skelCL}
 {Steuwer}, M., {Kegel}, P., and {Gorlatch}, S. (2011).
@@ -117,6 +139,13 @@ Stone, J.~E., Gohara, D., and Shi, G. (2010).
 \newblock Opencl: A parallel programming standard for heterogeneous computing
   systems.
 \newblock {\em Computing in science \& engineering}, 12(3):66.
+
+\bibitem[{Topcuoglu} et~al., 2002]{heftoriginal}
+{Topcuoglu}, H., {Hariri}, S., and {Min-You Wu} (2002).
+\newblock Performance-effective and low-complexity task scheduling for
+  heterogeneous computing.
+\newblock {\em IEEE Transactions on Parallel and Distributed Systems},
+  13(3):260--274.
 
 \bibitem[Vaswani et~al., 2017]{DBLP:journals/corr/VaswaniSPUJGKP17}
 Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.~N.,

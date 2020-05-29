@@ -16,5 +16,13 @@
 \contentsline {figure}{\numberline {4.4}{\ignorespaces \small Command Queue Setup\relax }}{28}{figure.caption.67}%
 \contentsline {figure}{\numberline {4.5}{\ignorespaces \small Command Queue Setup\relax }}{28}{figure.caption.68}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces \small Siamese Neural Network - $E_{1}$ and $E_{2}$ are two branches of the neural network that compute independently\relax }}{32}{figure.caption.72}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces \small Siamese Neural Network - $E_{1}$ and $E_{2}$ are two branches of the neural network that compute independently\relax }}{32}{figure.caption.74}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces \small Transformer Architecture\relax }}{36}{figure.caption.83}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces \small Speedup of best over default configuration \relax }}{38}{figure.caption.85}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces \small Clustering vs Eager \relax }}{40}{figure.caption.87}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces \small Clustering vs {\em heft} scheduling \relax }}{41}{figure.caption.89}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces \small Gannt chart for {\em eager} scheduling \relax }}{43}{figure.caption.90}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces \small Gannt chart for {\em cluster} scheduling \relax }}{43}{figure.caption.91}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces \small Gannt chart for {\em heft} scheduling \relax }}{44}{figure.caption.92}%
 \addvspace {10\p@ }

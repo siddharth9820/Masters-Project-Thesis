@@ -11,7 +11,16 @@
 %----------------------------------------------------------------------------------------
 
 \section{Introduction}
-This section gives an overview of the various scheduling policies that have been used in the experiments performed in Chapter \textbf{give reference}. To implement these policies a simple override of the default {\tt select} procedure is sufficient due to the modularity of the framework.
+This section gives an overview of the various scheduling policies that have been used in the experiments performed in Chapter \textbf{give reference}. To implement these policies a simple override of the default {\tt select} procedure is sufficient due to the modularity of the framework. Before that we give definitions of the two types of policies - static and dynamic. 
+
+\begin{definition}
+    \emph{A policy which maps all the kernels of a task DAG to devices prior to execution of the DAG is called a \textbf{static policy}.} 
+\end{definition}
+\begin{definition}
+    \emph{A policy which maps all the kernels of a task DAG to devices during the execution of the DAG is called a \textbf{dynamic policy}.} 
+\end{definition}
+
+Note that, the each task component $\mathcal{T}$ for a dynamic scheduling policy consists of only one kernel as there is no static device assignment and thus no way for the framework to cluster multiple kernels into a task.
 
 \section{The Default Policy}
 The default policy of \emph{PyschedCL} expects the user to provide the device mappings of all the kernels present in the DAG. It is therefore clearly a static policy that relies on the expertise of the user to select efficient device assignments. For example, given a task DAG for a siamese neural network \cite{siamese}, a sensible assignment would be to map the two branches of the DAG to two separate devices to extract maximum parallelisation.  
@@ -22,26 +31,37 @@ The default policy of \emph{PyschedCL} expects the user to provide the device ma
     \caption{\small Siamese Neural Network - $E_{1}$ and $E_{2}$ are two branches of the neural network that compute independently\label{fig:siamese network}}
 \end{figure}
 
-We use a default policy for the Transformer DAG in our experiments which will be described in Chapter \textbf{give reference}.
+We use a default policy for the Transformer DAG in our experiments which will be described in Chapter \textbf{give reference}. 
+\par Next, we define two dynamic scheduling heuristics i.e. policies which decide the device mappings during runtime. 
+
 
 \section{The Eager Scheduling Policy}
-This policy relies on prior execution time profiling of all the kernels present in the DAG. It also uses the bottom level rank estimates defined below recursively. 
+This is a dynamic scheduling policy relies on prior execution time profiling of all the kernels present in the DAG. It also uses the bottom level rank estimates defined below recursively. 
 
 \begin{definition}
     \emph{The bottom level rank of a kernel $k_{i}$ is defined as follows.}
-    \begin{equation}
+    \begin{equation} \label{eqn:brank_kernel}
         brank(k_{i}) = \overline{w_{i}} + \max_{k_{j} \in succ({k_{i}})}(\overline{c_{i,j}}+brank(k_{j}))
     \end{equation}
     \emph{where $k_{i}$ and $k_{j}$ are individual kernels $succ(k_{i})$ is the list of successors of $k_{i}$ in the DAG, $w_{i}$ is the average computation cost of $k_{i}$ across all devices and $c_{i,j}$ is the average communication cost of the variables transfered between kernels $k_{i}$ and $k_{j}$ for all possible device assignments of the pair. Both $w_{i}$ and $c_{i,j}$ are estimated via the prior profiling. }
 \end{definition}
 
-\begin{definition}
-    \emph{The bottom level rank of a task component $\mathcal{T}$ is defined as follows.}
-    \begin{equation}
-        brank(\mathcal{T}) =  \max_{k_{i} \in \mathcal{T}.freekernels}(brank(k_{i}))
-    \end{equation}
-    \emph{where $\mathcal{T}.freekernels$ is the same as defined in Chapter \textbf{give ref}}
-\end{definition}
+% \begin{definition}
+%     \emph{The bottom level rank of a task component $\mathcal{T}$ is defined as follows.}
+%     \begin{equation} \label{eqn:brank_task}
+%         brank(\mathcal{T}) =  \max_{k_{i} \in \mathcal{T}.freekernels}(brank(k_{i}))
+%     \end{equation}
+%     \emph{where $\mathcal{T}.freekernels$ is the same as defined in Chapter \textbf{give ref}}
+% \end{definition}
 
 
-The corresponsing {\tt select} procedure employs a greedy policy. From the frontier queue $\mathcal{F}$, it selects the task component $T$ with the highest bottom level rank
+
+The corresponding {\tt select} procedure employs a greedy policy. From the frontier queue $\mathcal{F}$, it selects the task component $\mathcal{T}$ with the highest bottom level rank. The bottom level rank of a task is simply the bottom level rank of its corresponding kernel. Command Queues $\mathcal{Q}$ of any of the available free devices is selected. These are the  $\mathcal{T},\mathcal{Q}$ values returned by the {\tt select} procedure.
+
+
+\section{The HEFT Scheduling Policy}
+The \emph{Heterogenous Earliest Finish Time} \cite{heftoriginal} or the HEFT policy also relies on the bottom level rank measures defined in Equation \ref{eqn:brank_kernel}. Selection of the task component $\mathcal{T}$ is the same as before i.e. the task with the maximum bottom level rank in $\mathcal{F}$. However, in this policy the device with the earliest finish time is selected instead of a random selection. The finish time of a device is the sum of three values - the execution time of the task currently executing on the device, the execution time of $\mathcal{T}$ on that device and the communication cost for that device as defined in equation \ref{eqn:brank_kernel}. These are the  $\mathcal{T},\mathcal{Q}$ values returned by the {\tt select} procedure.
+
+\section{Machine Learning Assisted Scheduling}
+lorem ipsum dolomet
+
