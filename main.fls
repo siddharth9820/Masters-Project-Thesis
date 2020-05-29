@@ -275,6 +275,7 @@ INPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.toc
 OUTPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.toc
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.lof
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.lof
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 OUTPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.lof
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.lot
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.lot
@@ -283,6 +284,57 @@ INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter1.tex
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter1.tex
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TC_IntroPicNew.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TC_IntroPicNew.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TC_IntroPicNew.pdf
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter2.tex
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter2.tex
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/OpenCLBackground.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/OpenCLBackground.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/OpenCLBackground.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter3.tex
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter3.tex
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/Transformer_modified.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/Transformer_modified.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/Transformer_modified.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/finecoarse.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/finecoarse.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/finecoarse.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/motiv_sequential.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/motiv_sequential.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/motiv_sequential.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/motiv_concurrent.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/motiv_concurrent.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/motiv_concurrent.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/PlatformAndProblemFormulation.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/PlatformAndProblemFormulation.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/PlatformAndProblemFormulation.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter4.tex
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter4.tex
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TCOverviewNonML.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TCOverviewNonML.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TCOverviewNonML.pdf
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/tcrm0600.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/omscmr.fd
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/omscmr.fd
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/omlcmr.fd
+INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/omlcmr.fd
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/json_file.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/json_file.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/json_file.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/DAGJson.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/DAGJson.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/DAGJson.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/SchedulingEngine.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/SchedulingEngine.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/SchedulingEngine.pdf
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Appendices/AppendixA.tex
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Appendices/AppendixA.tex
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.bbl
@@ -290,7 +342,23 @@ INPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.bbl
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.aux
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.out
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.out
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb

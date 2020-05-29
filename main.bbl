@@ -1,3 +1,138 @@
 \begin{thebibliography}{}
 
+\bibitem[Aji et~al., 2016]{multicl}
+Aji, A.~M., Peña, A.~J., Balaji, P., and chun Feng, W. (2016).
+\newblock Multicl: Enabling automatic scheduling for task-parallel workloads in
+  opencl.
+\newblock {\em Parallel Computing}, 58:37--55.
+
+\bibitem[Augonnet et~al., 2009]{augonnet2011starpu}
+Augonnet, C., Thibault, S., Namyst, R., and Wacrenier, P.-A. (2009).
+\newblock Starpu: A unified platform for task scheduling on heterogeneous
+  multicore architectures.
+\newblock In Sips, H., Epema, D., and Lin, H.-X., editors, {\em Euro-Par 2009
+  Parallel Processing}, pages 863--874, Berlin, Heidelberg. Springer Berlin
+  Heidelberg.
+
+\bibitem[Gelado et~al., 2010]{gelado}
+Gelado, I., Stone, J.~E., Cabezas, J., Patel, S., Navarro, N., and Hwu,
+  W.-m.~W. (2010).
+\newblock An asymmetric distributed shared memory model for heterogeneous
+  parallel systems.
+\newblock In {\em Proceedings of the Fifteenth International Conference on
+  Architectural Support for Programming Languages and Operating Systems},
+  ASPLOS XV, pages 347--358, New York, NY, USA. ACM.
+
+\bibitem[Ghose et~al., 2017]{schedcl}
+Ghose, A., Dokara, L., Dey, S., and Mitra, P. (2017).
+\newblock A framework for opencl task scheduling on heterogeneous multicores.
+\newblock {\em PPL}, 27(3-4):1--32.
+
+\bibitem[Grewe and O’Boyle, 2011]{grewe2011static}
+Grewe, D. and O’Boyle, M.~F. (2011).
+\newblock A static task partitioning approach for heterogeneous systems using
+  opencl.
+\newblock In {\em CC}, pages 286--305. Springer.
+
+\bibitem[Grewe et~al., 2013]{grewe2013opencl}
+Grewe, D., Wang, Z., and O’Boyle, M.~F. (2013).
+\newblock Opencl task partitioning in the presence of gpu contention.
+\newblock In {\em LCPC}, pages 87--101. Springer.
+
+\bibitem[{Han} and {Abdelrahman}, 2011]{hicuda}
+{Han}, T.~D. and {Abdelrahman}, T.~S. (2011).
+\newblock hicuda: High-level gpgpu programming.
+\newblock {\em IEEE Transactions on Parallel and Distributed Systems},
+  22(1):78--90.
+
+\bibitem[Henry et~al., 2014]{henry2014toward}
+Henry, S., Denis, A., Barthou, D., Counilh, M.-C., and Namyst, R. (2014).
+\newblock Toward opencl automatic multi-device support.
+\newblock In Silva, F., Dutra, I., and Santos~Costa, V., editors, {\em Euro-Par
+  2014 Parallel Processing}, pages 776--787, Cham. Springer International
+  Publishing.
+
+\bibitem[{Hoshino} et~al., 2013]{openacc}
+{Hoshino}, T., {Maruyama}, N., {Matsuoka}, S., and {Takaki}, R. (2013).
+\newblock Cuda vs openacc: Performance case studies with kernel benchmarks and
+  a memory-bound cfd application.
+\newblock In {\em 2013 13th IEEE/ACM International Symposium on Cluster, Cloud,
+  and Grid Computing}, pages 136--143.
+
+\bibitem[{Hugo} et~al., 2013]{hugo2014composing}
+{Hugo}, A., {Guermouche}, A., {Wacrenier}, P., and {Namyst}, R. (2013).
+\newblock Composing multiple starpu applications over heterogeneous machines: A
+  supervised approach.
+\newblock In {\em 2013 IEEE International Symposium on Parallel Distributed
+  Processing, Workshops and Phd Forum}, pages 1050--1059.
+
+\bibitem[J{\"a}{\"a}skel{\"a}inen et~al., 2018]{pekka}
+J{\"a}{\"a}skel{\"a}inen, P., Korhonen, V., Koskela, M., Takala, J.,
+  Egiazarian, K., Danielyan, A., Cruz, C., James, P., and McIntosh-Smith, S.
+  (2018).
+\newblock Exploiting task parallelism with opencl: A case study.
+\newblock {\em Journal of Signal Processing Systems}.
+\newblock EXT={"}Danielyan, Aram{"}.
+
+\bibitem[Kim et~al., 2012]{snucl}
+Kim, J., Seo, S., Lee, J., Nah, J., Jo, G., and Lee, J. (2012).
+\newblock Snucl: An opencl framework for heterogeneous cpu/gpu clusters.
+\newblock In {\em Proceedings of the 26th ACM International Conference on
+  Supercomputing}, ICS ’12, page 341–352, New York, NY, USA. Association
+  for Computing Machinery.
+
+\bibitem[Kl{\"o}ckner et~al., 2012]{pyopencl}
+Kl{\"o}ckner, A., Pinto, N., Lee, Y., Catanzaro, B., Ivanov, P., and Fasih, A.
+  (2012).
+\newblock Pycuda and pyopencl: A scripting-based approach to gpu run-time code
+  generation.
+\newblock {\em Parallel Computing}, 38(3):157--174.
+
+\bibitem[Kofler et~al., 2013]{kofler2013automatic}
+Kofler, K., Grasso, I., Cosenza, B., and Fahringer, T. (2013).
+\newblock An automatic input-sensitive approach for heterogeneous task
+  partitioning.
+\newblock In {\em SC}, pages 149--160. ACM.
+
+\bibitem[Nvidia, 2010]{nvidia}
+Nvidia (2010).
+\newblock Nvidia gpu computing sdk.
+
+\bibitem[{Steuwer} et~al., 2011]{skelCL}
+{Steuwer}, M., {Kegel}, P., and {Gorlatch}, S. (2011).
+\newblock Skelcl - a portable skeleton library for high-level gpu programming.
+\newblock In {\em 2011 IEEE International Symposium on Parallel and Distributed
+  Processing Workshops and Phd Forum}, pages 1176--1182.
+
+\bibitem[Stone et~al., 2010]{stone2010opencl}
+Stone, J.~E., Gohara, D., and Shi, G. (2010).
+\newblock Opencl: A parallel programming standard for heterogeneous computing
+  systems.
+\newblock {\em Computing in science \& engineering}, 12(3):66.
+
+\bibitem[Vaswani et~al., 2017]{DBLP:journals/corr/VaswaniSPUJGKP17}
+Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A.~N.,
+  Kaiser, L., and Polosukhin, I. (2017).
+\newblock Attention is all you need.
+\newblock {\em CoRR}, abs/1706.03762.
+
+\bibitem[Wen et~al., 2014]{smart}
+Wen, Y., Wang, Z., and O'Boyle, M. F.~P. (2014).
+\newblock Smart multi-task scheduling for opencl programs on cpu/gpu
+  heterogeneous platforms.
+\newblock In {\em HiPC}, pages 1--10.
+
+\bibitem[{Xiao} et~al., 2012]{vocl}
+{Xiao}, S., {Balaji}, P., {Zhu}, Q., {Thakur}, R., {Coghlan}, S., {Lin}, H.,
+  {Wen}, G., {Hong}, J., and {Feng}, W. (2012).
+\newblock Vocl: An optimized environment for transparent virtualization of
+  graphics processing units.
+\newblock In {\em 2012 Innovative Parallel Computing (InPar)}, pages 1--12.
+
+\bibitem[You et~al., 2015]{virtcl}
+You, Y.-P., Wu, H.-J., Tsai, Y.-N., and Chao, Y.-T. (2015).
+\newblock {VirtCL: a framework for OpenCL device abstraction and management}.
+\newblock In {\em {Proceedings of the 20th Symposium on Principles and Practice
+  of Parallel Programming}}, pages 161--172. {ACM}.
+
 \end{thebibliography}

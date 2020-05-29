@@ -11,7 +11,16 @@
 \contentsline {chapter}{List of Tables}{viii}{dummy.13}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.15}%
 \contentsline {section}{\numberline {1.1}Introduction}{1}{section.16}%
+\contentsline {chapter}{\numberline {2}OpenCL Background and Related Work}{6}{chapter.18}%
+\contentsline {section}{\numberline {2.1}OpenCL Background}{6}{section.19}%
+\contentsline {section}{\numberline {2.2}Related Work}{9}{section.21}%
+\contentsline {chapter}{\numberline {3}Problem Formulation}{11}{chapter.22}%
+\contentsline {section}{\numberline {3.1}Motivation}{11}{section.23}%
+\contentsline {section}{\numberline {3.2}Formal Problem Statement}{16}{section.28}%
+\contentsline {chapter}{\numberline {4}Software Architecture}{21}{chapter.39}%
+\contentsline {section}{\numberline {4.1}Input File Specification}{22}{section.43}%
+\contentsline {section}{\numberline {4.2}Scheduling Backend}{26}{section.64}%
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix A}{2}{appendix.17}%
+\contentsline {chapter}{\numberline {A}Appendix A}{28}{appendix.66}%
 
-\contentsline {chapter}{Bibliography}{3}{dummy.18}%
+\contentsline {chapter}{Bibliography}{29}{dummy.67}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.14)  28 MAY 2020 23:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.14)  29 MAY 2020 21:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -693,32 +693,32 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count360
 )
-Package hyperref Info: Option `colorlinks' set `false' on input line 41.
+Package hyperref Info: Option `colorlinks' set `false' on input line 42.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
  (/Users/mahua2004/Desktop/MTP-II Thesis/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 62.
-LaTeX Font Info:    ... okay on input line 62.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 62.
+LaTeX Info: Redefining \selectfont on input line 63.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
@@ -747,7 +747,7 @@ Package caption Info: End \AtBeginDocument code.
 )
 \c@lstlisting=\count367
 \AtBeginShipoutBox=\box82
-Package hyperref Info: Link coloring OFF on input line 62.
+Package hyperref Info: Link coloring OFF on input line 63.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
  (/usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
@@ -757,9 +757,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count368
 )
-LaTeX Info: Redefining \ref on input line 62.
-LaTeX Info: Redefining \pageref on input line 62.
-LaTeX Info: Redefining \nameref on input line 62.
+LaTeX Info: Redefining \ref on input line 63.
+LaTeX Info: Redefining \pageref on input line 63.
+LaTeX Info: Redefining \nameref on input line 63.
  (/Users/mahua2004/Desktop/MTP-II Thesis/main.out) (/Users/mahua2004/Desktop/MTP-II Thesis/main.out)
 \@outlinefile=\write3
 \openout3 = `main.out'.
@@ -769,21 +769,21 @@ Dictionary: translator-basic-dictionary, Language: English
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 62.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 63.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 62.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 63.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 ------------------------------------------------------------------------------
  Title Page
 ------------------------------------------------------------------------------
-<Pictures/logo.jpg, id=48, 918.43124pt x 1027.84pt>
+<Pictures/logo.jpg, id=84, 918.43124pt x 1027.84pt>
 File: Pictures/logo.jpg Graphic file (type jpg)
 <use Pictures/logo.jpg>
-Package pdftex.def Info: Pictures/logo.jpg  used on input line 92.
+Package pdftex.def Info: Pictures/logo.jpg  used on input line 93.
 (pdftex.def)             Requested size: 101.6864pt x 113.81102pt.
 [1
 
@@ -801,7 +801,7 @@ Package pdftex.def Info: Pictures/logo.jpg  used on input line 92.
 ------------------------------------------------------------------------------
 File: Pictures/logo.jpg Graphic file (type jpg)
 <use Pictures/logo.jpg>
-Package pdftex.def Info: Pictures/logo.jpg  used on input line 112.
+Package pdftex.def Info: Pictures/logo.jpg  used on input line 113.
 (pdftex.def)             Requested size: 127.10802pt x 142.26378pt.
 [2
 
@@ -856,55 +856,195 @@ Chapter 1.
 ------------------------------------------------------------------------------
  1 Introduction
 ------------------------------------------------------------------------------
-) (/Users/mahua2004/Desktop/MTP-II Thesis/Appendices/AppendixA.tex [1
+[1
 
 
 
 ]
+
+pdfTeX warning: pdflatex (file /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TC_IntroPicNew.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Pictures/TC_IntroPicNew.pdf, id=190, 685.56125pt x 459.7175pt>
+File: Pictures/TC_IntroPicNew.pdf Graphic file (type pdf)
+<use Pictures/TC_IntroPicNew.pdf>
+Package pdftex.def Info: Pictures/TC_IntroPicNew.pdf  used on input line 18.
+(pdftex.def)             Requested size: 239.95003pt x 160.90353pt.
+[2 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TC_IntroPicNew.pdf>] [3] [4]
+
+LaTeX Warning: Reference `sec:OpenCL' on page 5 undefined on input line 38.
+
+
+LaTeX Warning: Reference `sec:framework' on page 5 undefined on input line 38.
+
+
+LaTeX Warning: Reference `sec:expt' on page 5 undefined on input line 38.
+
+) (/Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter2.tex [5]
+Chapter 2.
+------------------------------------------------------------------------------
+ 2 OpenCL Background and Related Work
+------------------------------------------------------------------------------
+
+
+pdfTeX warning: pdflatex (file /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/OpenCLBackground.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Pictures/OpenCLBackground.pdf, id=247, 521.95pt x 391.4625pt>
+File: Pictures/OpenCLBackground.pdf Graphic file (type pdf)
+<use Pictures/OpenCLBackground.pdf>
+Package pdftex.def Info: Pictures/OpenCLBackground.pdf  used on input line 19.
+(pdftex.def)             Requested size: 245.31653pt x 183.9874pt.
+[6
+
+] [7 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/OpenCLBackground.pdf>] [8] [9]) (/Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter3.tex [10]
+Chapter 3.
+------------------------------------------------------------------------------
+ 3 Problem Formulation
+------------------------------------------------------------------------------
+
+
+pdfTeX warning: pdflatex (file /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/Transformer_modified.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Pictures/Transformer_modified.pdf, id=329, 467.7475pt x 468.75125pt>
+File: Pictures/Transformer_modified.pdf Graphic file (type pdf)
+<use Pictures/Transformer_modified.pdf>
+Package pdftex.def Info: Pictures/Transformer_modified.pdf  used on input line 13.
+(pdftex.def)             Requested size: 233.87317pt x 234.37505pt.
+[11
+
+] [12 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/Transformer_modified.pdf>]
+
+pdfTeX warning: pdflatex (file /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/finecoarse.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Pictures/finecoarse.pdf, id=371, 588.1975pt x 516.93124pt>
+File: Pictures/finecoarse.pdf Graphic file (type pdf)
+<use Pictures/finecoarse.pdf>
+Package pdftex.def Info: Pictures/finecoarse.pdf  used on input line 23.
+(pdftex.def)             Requested size: 205.87221pt x 180.92863pt.
+[13 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/finecoarse.pdf>]
+
+pdfTeX warning: pdflatex (file /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/motiv_sequential.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Pictures/motiv_sequential.pdf, id=394, 722.7pt x 498.86375pt>
+File: Pictures/motiv_sequential.pdf Graphic file (type pdf)
+<use Pictures/motiv_sequential.pdf>
+Package pdftex.def Info: Pictures/motiv_sequential.pdf  used on input line 31.
+(pdftex.def)             Requested size: 252.94878pt x 174.60492pt.
+
+
+pdfTeX warning: pdflatex (file /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/motiv_concurrent.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Pictures/motiv_concurrent.pdf, id=395, 760.8425pt x 497.86pt>
+File: Pictures/motiv_concurrent.pdf Graphic file (type pdf)
+<use Pictures/motiv_concurrent.pdf>
+Package pdftex.def Info: Pictures/motiv_concurrent.pdf  used on input line 36.
+(pdftex.def)             Requested size: 266.29886pt x 174.2536pt.
+[14] [15 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/motiv_sequential.pdf> </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/motiv_concurrent.pdf>]
+
+pdfTeX warning: pdflatex (file /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/PlatformAndProblemFormulation.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Pictures/PlatformAndProblemFormulation.pdf, id=433, 670.505pt x 492.84125pt>
+File: Pictures/PlatformAndProblemFormulation.pdf Graphic file (type pdf)
+<use Pictures/PlatformAndProblemFormulation.pdf>
+Package pdftex.def Info: Pictures/PlatformAndProblemFormulation.pdf  used on input line 50.
+(pdftex.def)             Requested size: 254.79454pt x 187.28162pt.
+[16] [17 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/PlatformAndProblemFormulation.pdf>] [18] [19]) (/Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter4.tex [20]
+Chapter 4.
+------------------------------------------------------------------------------
+ 4 Software Architecture
+------------------------------------------------------------------------------
+
+
+pdfTeX warning: pdflatex (file /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TCOverviewNonML.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Pictures/TCOverviewNonML.pdf, id=501, 734.745pt x 167.62625pt>
+File: Pictures/TCOverviewNonML.pdf Graphic file (type pdf)
+<use Pictures/TCOverviewNonML.pdf>
+Package pdftex.def Info: Pictures/TCOverviewNonML.pdf  used on input line 12.
+(pdftex.def)             Requested size: 257.1646pt x 58.67006pt.
+[21
+
+ </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TCOverviewNonML.pdf>] [22] (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+)
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 29.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 32.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <6> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 32.
+
+
+pdfTeX warning: pdflatex (file /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/json_file.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Pictures/json_file.pdf, id=543, 963.6pt x 542.025pt>
+File: Pictures/json_file.pdf Graphic file (type pdf)
+<use Pictures/json_file.pdf>
+Package pdftex.def Info: Pictures/json_file.pdf  used on input line 46.
+(pdftex.def)             Requested size: 385.43317pt x 216.80615pt.
+[23] [24 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/json_file.pdf>]
+
+pdfTeX warning: pdflatex (file /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/DAGJson.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Pictures/DAGJson.pdf, id=590, 806.01125pt x 294.09875pt>
+File: Pictures/DAGJson.pdf Graphic file (type pdf)
+<use Pictures/DAGJson.pdf>
+Package pdftex.def Info: Pictures/DAGJson.pdf  used on input line 60.
+(pdftex.def)             Requested size: 403.00464pt x 147.04901pt.
+[25 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/DAGJson.pdf>]
+
+LaTeX Warning: Reference `algo:dispatch' on page 26 undefined on input line 67.
+
+
+
+pdfTeX warning: pdflatex (file /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/SchedulingEngine.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Pictures/SchedulingEngine.pdf, id=616, 708.6475pt x 435.6275pt>
+File: Pictures/SchedulingEngine.pdf Graphic file (type pdf)
+<use Pictures/SchedulingEngine.pdf>
+Package pdftex.def Info: Pictures/SchedulingEngine.pdf  used on input line 71.
+(pdftex.def)             Requested size: 248.03033pt x 152.47191pt.
+) [26] (/Users/mahua2004/Desktop/MTP-II Thesis/Appendices/AppendixA.tex [27 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/SchedulingEngine.pdf>]
 Appendix A.
 ------------------------------------------------------------------------------
  A Appendix A
 ------------------------------------------------------------------------------
-) [2
+) [28
 
 ]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
-(/Users/mahua2004/Desktop/MTP-II Thesis/main.bbl
-
-Package natbib Warning: Empty `thebibliography' environment on input line 3.
-
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 281.
- [3
+(/Users/mahua2004/Desktop/MTP-II Thesis/main.bbl [29
 
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 281.
+] [30])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 282.
+ [31]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 282.
  (/Users/mahua2004/Desktop/MTP-II Thesis/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 281.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 281.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 282.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 282.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D01810786C2BE8ED1B3AB2985859A84A;1185.
+(rerunfilecheck)             Checksum: 34D6B3EE98701BE2B30A6A4512A83BF5;2761.
+
+
+LaTeX Warning: There were undefined references.
+
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 112 ({)
+### simple group (level 1) entered at line 113 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 20000 strings out of 480608
- 329041 string characters out of 5903630
- 605609 words of memory out of 5000000
- 35513 multiletter control sequences out of 15000+600000
- 542350 words of font info for 61 fonts, out of 8000000 for 9000
+ 20711 strings out of 480608
+ 338908 string characters out of 5903630
+ 801473 words of memory out of 5000000
+ 36090 multiletter control sequences out of 15000+600000
+ 543940 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,13n,49p,1445b,910s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on "/Users/mahua2004/Desktop/MTP-II Thesis/main.pdf" (12 pages, 367627 bytes).
+ 46i,13n,55p,2223b,1521s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on "/Users/mahua2004/Desktop/MTP-II Thesis/main.pdf" (40 pages, 1215856 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
- 94 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 770 PDF objects out of 1000 (max. 8388607)
+ 609 compressed objects within 7 object streams
+ 130 named destinations out of 1000 (max. 500000)
+ 221 words of extra memory for PDF output out of 10000 (max. 10000000)
 
