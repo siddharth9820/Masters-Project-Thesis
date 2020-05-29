@@ -282,6 +282,13 @@ OUTPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.toc
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.lof
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.lof
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 OUTPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.lof
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.lot
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.lot
@@ -345,6 +352,11 @@ INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/SchedulingEngine.pdf
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TaskObject.pdf
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TaskObject.pdf
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TaskObject.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter5.tex
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter5.tex
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/siamese.png
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/siamese.png
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/siamese.png
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Appendices/AppendixA.tex
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Appendices/AppendixA.tex
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.bbl
@@ -358,6 +370,7 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb

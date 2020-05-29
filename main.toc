@@ -7,8 +7,8 @@
 \contentsline {chapter}{Acknowledgements}{v}{dummy.8}%
 
 \contentsline {chapter}{Contents}{vi}{dummy.9}%
-\contentsline {chapter}{List of Figures}{vii}{dummy.11}%
-\contentsline {chapter}{List of Tables}{viii}{dummy.13}%
+\contentsline {chapter}{List of Figures}{viii}{dummy.11}%
+\contentsline {chapter}{List of Tables}{ix}{dummy.13}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.15}%
 \contentsline {section}{\numberline {1.1}Introduction}{1}{section.16}%
 \contentsline {chapter}{\numberline {2}OpenCL Background and Related Work}{6}{chapter.18}%
@@ -20,7 +20,11 @@
 \contentsline {chapter}{\numberline {4}Software Architecture}{21}{chapter.39}%
 \contentsline {section}{\numberline {4.1}Input File Specification}{22}{section.43}%
 \contentsline {section}{\numberline {4.2}Scheduling Backend}{26}{section.64}%
+\contentsline {chapter}{\numberline {5}Scheduling Heuristics}{31}{chapter.69}%
+\contentsline {section}{\numberline {5.1}Introduction}{31}{section.70}%
+\contentsline {section}{\numberline {5.2}The Default Policy}{31}{section.71}%
+\contentsline {section}{\numberline {5.3}The Eager Scheduling Policy}{32}{section.73}%
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix A}{31}{appendix.69}%
+\contentsline {chapter}{\numberline {A}Appendix A}{33}{appendix.78}%
 
-\contentsline {chapter}{Bibliography}{32}{dummy.70}%
+\contentsline {chapter}{Bibliography}{34}{dummy.79}%

@@ -14,6 +14,14 @@ Augonnet, C., Thibault, S., Namyst, R., and Wacrenier, P.-A. (2009).
   Parallel Processing}, pages 863--874, Berlin, Heidelberg. Springer Berlin
   Heidelberg.
 
+\bibitem[Bromley et~al., 1993]{siamese}
+Bromley, J., Guyon, I., LeCun, Y., S\"{a}ckinger, E., and Shah, R. (1993).
+\newblock Signature verification using a “siamese” time delay neural
+  network.
+\newblock In {\em Proceedings of the 6th International Conference on Neural
+  Information Processing Systems}, NIPS’93, page 737–744, San Francisco,
+  CA, USA. Morgan Kaufmann Publishers Inc.
+
 \bibitem[Gelado et~al., 2010]{gelado}
 Gelado, I., Stone, J.~E., Cabezas, J., Patel, S., Navarro, N., and Hwu,
   W.-m.~W. (2010).

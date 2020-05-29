@@ -4,45 +4,45 @@ The top-level auxiliary file: main.aux
 The style file: apalike.bst
 Database file #1: Bibliography.bib
 Warning--empty journal in nvidia
-You've used 21 entries,
+You've used 22 entries,
             1935 wiz_defined-function locations,
-            607 strings with 8331 characters,
-and the built_in function-call counts, 11225 in all, are:
-= -- 1100
-> -- 554
-< -- 16
-+ -- 202
-- -- 194
-* -- 913
-:= -- 1827
-add.period$ -- 71
-call.type$ -- 21
-change.case$ -- 199
-chr.to.int$ -- 21
-cite$ -- 22
-duplicate$ -- 464
-empty$ -- 737
-format.name$ -- 219
-if$ -- 2326
+            616 strings with 8663 characters,
+and the built_in function-call counts, 11873 in all, are:
+= -- 1170
+> -- 582
+< -- 17
++ -- 212
+- -- 204
+* -- 955
+:= -- 1920
+add.period$ -- 75
+call.type$ -- 22
+change.case$ -- 209
+chr.to.int$ -- 22
+cite$ -- 23
+duplicate$ -- 501
+empty$ -- 776
+format.name$ -- 230
+if$ -- 2474
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 21
-newline$ -- 108
-num.names$ -- 67
-pop$ -- 222
+missing$ -- 22
+newline$ -- 113
+num.names$ -- 70
+pop$ -- 233
 preamble$ -- 1
-purify$ -- 199
+purify$ -- 209
 quote$ -- 0
-skip$ -- 365
+skip$ -- 401
 stack$ -- 0
-substring$ -- 704
-swap$ -- 141
-text.length$ -- 13
+substring$ -- 734
+swap$ -- 161
+text.length$ -- 14
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 126
+type$ -- 132
 warning$ -- 1
-while$ -- 83
+while$ -- 86
 width$ -- 0
-write$ -- 287
+write$ -- 303
 (There was 1 warning)
