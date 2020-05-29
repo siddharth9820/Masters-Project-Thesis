@@ -1,0 +1,47 @@
+% Chapter Template
+
+\chapter{Scheduling Heuristics} % Main chapter title
+
+\label{Chapter5} % Change X to a consecutive number; for referencing this chapter elsewhere, use \ref{ChapterX}
+
+\lhead{Chapter 5. \emph{Scheduling Heuristics}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
+
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+
+\section{Introduction}
+This section gives an overview of the various scheduling policies that have been used in the experiments performed in Chapter \textbf{give reference}. To implement these policies a simple override of the default {\tt select} procedure is sufficient due to the modularity of the framework.
+
+\section{The Default Policy}
+The default policy of \emph{PyschedCL} expects the user to provide the device mappings of all the kernels present in the DAG. It is therefore clearly a static policy that relies on the expertise of the user to select efficient device assignments. For example, given a task DAG for a siamese neural network \cite{siamese}, a sensible assignment would be to map the two branches of the DAG to two separate devices to extract maximum parallelisation.  
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.45]{Pictures/siamese.png}
+    \caption{\small Siamese Neural Network - $E_{1}$ and $E_{2}$ are two branches of the neural network that compute independently\label{fig:siamese network}}
+\end{figure}
+
+We use a default policy for the Transformer DAG in our experiments which will be described in Chapter \textbf{give reference}.
+
+\section{The Eager Scheduling Policy}
+This policy relies on prior execution time profiling of all the kernels present in the DAG. It also uses the bottom level rank estimates defined below recursively. 
+
+\begin{definition}
+    \emph{The bottom level rank of a kernel $k_{i}$ is defined as follows.}
+    \begin{equation}
+        brank(k_{i}) = \overline{w_{i}} + \max_{k_{j} \in succ({k_{i}})}(\overline{c_{i,j}}+brank(k_{j}))
+    \end{equation}
+    \emph{where $k_{i}$ and $k_{j}$ are individual kernels $succ(k_{i})$ is the list of successors of $k_{i}$ in the DAG, $w_{i}$ is the average computation cost of $k_{i}$ across all devices and $c_{i,j}$ is the average communication cost of the variables transfered between kernels $k_{i}$ and $k_{j}$ for all possible device assignments of the pair. Both $w_{i}$ and $c_{i,j}$ are estimated via the prior profiling. }
+\end{definition}
+
+\begin{definition}
+    \emph{The bottom level rank of a task component $\mathcal{T}$ is defined as follows.}
+    \begin{equation}
+        brank(\mathcal{T}) =  \max_{k_{i} \in \mathcal{T}.freekernels}(brank(k_{i}))
+    \end{equation}
+    \emph{where $\mathcal{T}.freekernels$ is the same as defined in Chapter \textbf{give ref}}
+\end{definition}
+
+
+The corresponsing {\tt select} procedure employs a greedy policy. From the frontier queue $\mathcal{F}$, it selects the task component $T$ with the highest bottom level rank
