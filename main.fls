@@ -289,6 +289,7 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 OUTPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.lof
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.lot
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.lot
@@ -357,8 +358,31 @@ INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter5.tex
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/siamese.png
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/siamese.png
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/siamese.png
-INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Appendices/AppendixA.tex
-INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Appendices/AppendixA.tex
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter6.tex
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter6.tex
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TransformerArch.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TransformerArch.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TransformerArch.pdf
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/Expt-1.png
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/Expt-1.png
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/Expt-1.png
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/Expt-2.png
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/Expt-2.png
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/Expt-2.png
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/Expt-3.png
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/Expt-3.png
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/Expt-3.png
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/eager_gannt.png
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/eager_gannt.png
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/eager_gannt.png
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/best_gannt.png
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/best_gannt.png
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/best_gannt.png
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/dynamic_heft_gannt.png
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/dynamic_heft_gannt.png
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/dynamic_heft_gannt.png
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter7.tex
+INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter7.tex
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.bbl
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.bbl
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.aux
@@ -381,7 +405,10 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb

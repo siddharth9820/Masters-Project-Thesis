@@ -22,9 +22,17 @@
 \contentsline {section}{\numberline {4.2}Scheduling Backend}{26}{section.64}%
 \contentsline {chapter}{\numberline {5}Scheduling Heuristics}{31}{chapter.69}%
 \contentsline {section}{\numberline {5.1}Introduction}{31}{section.70}%
-\contentsline {section}{\numberline {5.2}The Default Policy}{31}{section.71}%
-\contentsline {section}{\numberline {5.3}The Eager Scheduling Policy}{32}{section.73}%
+\contentsline {section}{\numberline {5.2}The Default Policy}{31}{section.73}%
+\contentsline {section}{\numberline {5.3}The Eager Scheduling Policy}{32}{section.75}%
+\contentsline {section}{\numberline {5.4}The HEFT Scheduling Policy}{33}{section.78}%
+\contentsline {section}{\numberline {5.5}Machine Learning Assisted Scheduling}{33}{section.79}%
+\contentsline {chapter}{\numberline {6}Experimental Results}{34}{chapter.80}%
+\contentsline {section}{\numberline {6.1}Introduction}{34}{section.81}%
+\contentsline {section}{\numberline {6.2}The Transformer}{34}{section.82}%
+\contentsline {section}{\numberline {6.3}Experiment 1: Exhaustive Profiling}{36}{section.84}%
+\contentsline {section}{\numberline {6.4}Experiment 2: Clustering vs Eager Execution}{39}{section.86}%
+\contentsline {section}{\numberline {6.5}Experiment 3: Clustering vs HEFT}{41}{section.88}%
+\contentsline {chapter}{\numberline {7}Conclusion}{45}{chapter.93}%
 \vspace {2em}
-\contentsline {chapter}{\numberline {A}Appendix A}{33}{appendix.78}%
 
-\contentsline {chapter}{Bibliography}{34}{dummy.79}%
+\contentsline {chapter}{Bibliography}{46}{dummy.94}%
