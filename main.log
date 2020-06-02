@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.14)  30 MAY 2020 00:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.5.14)  1 JUN 2020 17:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -803,7 +803,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ------------------------------------------------------------------------------
  Title Page
 ------------------------------------------------------------------------------
-<Pictures/logo.jpg, id=132, 918.43124pt x 1027.84pt>
+<Pictures/logo.jpg, id=144, 918.43124pt x 1027.84pt>
 File: Pictures/logo.jpg Graphic file (type jpg)
 <use Pictures/logo.jpg>
 Package pdftex.def Info: Pictures/logo.jpg  used on input line 95.
@@ -863,17 +863,6 @@ Package pdftex.def Info: Pictures/logo.jpg  used on input line 115.
  [8
 
 
-]
-------------------------------------------------------------------------------
- List of Tables
-------------------------------------------------------------------------------
-(/Users/mahua2004/Desktop/MTP-II Thesis/main.lot)
-\tf@lot=\write6
-\openout6 = `main.lot'.
-
- [9
-
-
 ] (/Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter1.tex
 Chapter 1.
 ------------------------------------------------------------------------------
@@ -886,37 +875,27 @@ Chapter 1.
 ]
 
 pdfTeX warning: pdflatex (file /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TC_IntroPicNew.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/TC_IntroPicNew.pdf, id=276, 685.56125pt x 459.7175pt>
+<Pictures/TC_IntroPicNew.pdf, id=286, 685.56125pt x 459.7175pt>
 File: Pictures/TC_IntroPicNew.pdf Graphic file (type pdf)
 <use Pictures/TC_IntroPicNew.pdf>
 Package pdftex.def Info: Pictures/TC_IntroPicNew.pdf  used on input line 18.
 (pdftex.def)             Requested size: 239.95003pt x 160.90353pt.
-[2 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TC_IntroPicNew.pdf>] [3] [4]
-
-LaTeX Warning: Reference `sec:OpenCL' on page 5 undefined on input line 38.
-
-
-LaTeX Warning: Reference `sec:framework' on page 5 undefined on input line 38.
-
-
-LaTeX Warning: Reference `sec:expt' on page 5 undefined on input line 38.
-
-) (/Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter2.tex [5]
+[2 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TC_IntroPicNew.pdf>] [3] [4]) (/Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter2.tex [5]
 Chapter 2.
 ------------------------------------------------------------------------------
  2 OpenCL Background and Related Work
 ------------------------------------------------------------------------------
-
-
-pdfTeX warning: pdflatex (file /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/OpenCLBackground.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/OpenCLBackground.pdf, id=333, 521.95pt x 391.4625pt>
-File: Pictures/OpenCLBackground.pdf Graphic file (type pdf)
-<use Pictures/OpenCLBackground.pdf>
-Package pdftex.def Info: Pictures/OpenCLBackground.pdf  used on input line 19.
-(pdftex.def)             Requested size: 245.31653pt x 183.9874pt.
 [6
 
-] [7 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/OpenCLBackground.pdf>] [8] [9]) (/Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter3.tex [10]
+]
+
+pdfTeX warning: pdflatex (file /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/OpenCLBackground.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<Pictures/OpenCLBackground.pdf, id=352, 521.95pt x 391.4625pt>
+File: Pictures/OpenCLBackground.pdf Graphic file (type pdf)
+<use Pictures/OpenCLBackground.pdf>
+Package pdftex.def Info: Pictures/OpenCLBackground.pdf  used on input line 33.
+(pdftex.def)             Requested size: 245.31653pt x 183.9874pt.
+[7] [8 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/OpenCLBackground.pdf>] [9]) (/Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter3.tex [10] [11]
 Chapter 3.
 ------------------------------------------------------------------------------
  3 Problem Formulation
@@ -924,25 +903,25 @@ Chapter 3.
 
 
 pdfTeX warning: pdflatex (file /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/Transformer_modified.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/Transformer_modified.pdf, id=414, 467.7475pt x 468.75125pt>
+<Pictures/Transformer_modified.pdf, id=433, 467.7475pt x 468.75125pt>
 File: Pictures/Transformer_modified.pdf Graphic file (type pdf)
 <use Pictures/Transformer_modified.pdf>
 Package pdftex.def Info: Pictures/Transformer_modified.pdf  used on input line 13.
 (pdftex.def)             Requested size: 233.87317pt x 234.37505pt.
-[11
+[12
 
-] [12 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/Transformer_modified.pdf>]
+] [13 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/Transformer_modified.pdf>]
 
 pdfTeX warning: pdflatex (file /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/finecoarse.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/finecoarse.pdf, id=457, 588.1975pt x 516.93124pt>
+<Pictures/finecoarse.pdf, id=476, 588.1975pt x 516.93124pt>
 File: Pictures/finecoarse.pdf Graphic file (type pdf)
 <use Pictures/finecoarse.pdf>
 Package pdftex.def Info: Pictures/finecoarse.pdf  used on input line 23.
 (pdftex.def)             Requested size: 205.87221pt x 180.92863pt.
-[13 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/finecoarse.pdf>]
+[14 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/finecoarse.pdf>]
 
 pdfTeX warning: pdflatex (file /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/motiv_sequential.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/motiv_sequential.pdf, id=480, 722.7pt x 498.86375pt>
+<Pictures/motiv_sequential.pdf, id=499, 722.7pt x 498.86375pt>
 File: Pictures/motiv_sequential.pdf Graphic file (type pdf)
 <use Pictures/motiv_sequential.pdf>
 Package pdftex.def Info: Pictures/motiv_sequential.pdf  used on input line 31.
@@ -950,20 +929,20 @@ Package pdftex.def Info: Pictures/motiv_sequential.pdf  used on input line 31.
 
 
 pdfTeX warning: pdflatex (file /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/motiv_concurrent.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/motiv_concurrent.pdf, id=481, 760.8425pt x 497.86pt>
+<Pictures/motiv_concurrent.pdf, id=500, 760.8425pt x 497.86pt>
 File: Pictures/motiv_concurrent.pdf Graphic file (type pdf)
 <use Pictures/motiv_concurrent.pdf>
 Package pdftex.def Info: Pictures/motiv_concurrent.pdf  used on input line 36.
 (pdftex.def)             Requested size: 266.29886pt x 174.2536pt.
-[14] [15 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/motiv_sequential.pdf> </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/motiv_concurrent.pdf>]
+[15] [16 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/motiv_sequential.pdf> </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/motiv_concurrent.pdf>]
 
 pdfTeX warning: pdflatex (file /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/PlatformAndProblemFormulation.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/PlatformAndProblemFormulation.pdf, id=520, 670.505pt x 492.84125pt>
+<Pictures/PlatformAndProblemFormulation.pdf, id=539, 670.505pt x 492.84125pt>
 File: Pictures/PlatformAndProblemFormulation.pdf Graphic file (type pdf)
 <use Pictures/PlatformAndProblemFormulation.pdf>
 Package pdftex.def Info: Pictures/PlatformAndProblemFormulation.pdf  used on input line 50.
 (pdftex.def)             Requested size: 254.79454pt x 187.28162pt.
-[16] [17 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/PlatformAndProblemFormulation.pdf>] [18] [19]) (/Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter4.tex [20]
+[17] [18 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/PlatformAndProblemFormulation.pdf>] [19] [20]) (/Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter4.tex [21]
 Chapter 4.
 ------------------------------------------------------------------------------
  4 Software Architecture
@@ -971,171 +950,167 @@ Chapter 4.
 
 
 pdfTeX warning: pdflatex (file /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TCOverviewNonML.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/TCOverviewNonML.pdf, id=586, 734.745pt x 167.62625pt>
+<Pictures/TCOverviewNonML.pdf, id=607, 734.745pt x 167.62625pt>
 File: Pictures/TCOverviewNonML.pdf Graphic file (type pdf)
 <use Pictures/TCOverviewNonML.pdf>
-Package pdftex.def Info: Pictures/TCOverviewNonML.pdf  used on input line 12.
-(pdftex.def)             Requested size: 257.1646pt x 58.67006pt.
-[21
+Package pdftex.def Info: Pictures/TCOverviewNonML.pdf  used on input line 13.
+(pdftex.def)             Requested size: 367.3716pt x 83.81291pt.
+[22
 
- </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TCOverviewNonML.pdf>] [22] (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
+ </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TCOverviewNonML.pdf>] [23] (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 )
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 29.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 38.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <6> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 29.
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 32.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 38.
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 41.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <6> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 32.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 41.
 
 
 pdfTeX warning: pdflatex (file /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/json_file.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/json_file.pdf, id=629, 963.6pt x 542.025pt>
+<Pictures/json_file.pdf, id=649, 963.6pt x 542.025pt>
 File: Pictures/json_file.pdf Graphic file (type pdf)
 <use Pictures/json_file.pdf>
-Package pdftex.def Info: Pictures/json_file.pdf  used on input line 46.
+Package pdftex.def Info: Pictures/json_file.pdf  used on input line 55.
 (pdftex.def)             Requested size: 385.43317pt x 216.80615pt.
-[23] [24 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/json_file.pdf>]
+[24] [25 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/json_file.pdf>]
 
 pdfTeX warning: pdflatex (file /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/DAGJson.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/DAGJson.pdf, id=675, 806.01125pt x 294.09875pt>
+<Pictures/DAGJson.pdf, id=694, 806.01125pt x 294.09875pt>
 File: Pictures/DAGJson.pdf Graphic file (type pdf)
 <use Pictures/DAGJson.pdf>
-Package pdftex.def Info: Pictures/DAGJson.pdf  used on input line 60.
+Package pdftex.def Info: Pictures/DAGJson.pdf  used on input line 69.
 (pdftex.def)             Requested size: 403.00464pt x 147.04901pt.
-[25 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/DAGJson.pdf>]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 75.
- [26]
+[26 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/DAGJson.pdf>] [27] [28]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 104.
+
 
 pdfTeX warning: pdflatex (file /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/SchedulingEngine.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/SchedulingEngine.pdf, id=708, 708.6475pt x 435.6275pt>
+<Pictures/SchedulingEngine.pdf, id=743, 708.6475pt x 435.6275pt>
 File: Pictures/SchedulingEngine.pdf Graphic file (type pdf)
 <use Pictures/SchedulingEngine.pdf>
-Package pdftex.def Info: Pictures/SchedulingEngine.pdf  used on input line 109.
+Package pdftex.def Info: Pictures/SchedulingEngine.pdf  used on input line 148.
 (pdftex.def)             Requested size: 248.03033pt x 152.47191pt.
-
+[29]
 
 pdfTeX warning: pdflatex (file /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TaskObject.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/TaskObject.pdf, id=711, 502.87875pt x 378.41376pt>
+<Pictures/TaskObject.pdf, id=750, 502.87875pt x 378.41376pt>
 File: Pictures/TaskObject.pdf Graphic file (type pdf)
 <use Pictures/TaskObject.pdf>
-Package pdftex.def Info: Pictures/TaskObject.pdf  used on input line 116.
+Package pdftex.def Info: Pictures/TaskObject.pdf  used on input line 155.
 (pdftex.def)             Requested size: 226.29333pt x 170.2846pt.
-[27] [28 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/SchedulingEngine.pdf> </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TaskObject.pdf>] [29]) (/Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter5.tex [30]
+[30 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/SchedulingEngine.pdf> </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TaskObject.pdf>] [31]) (/Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter5.tex [32]
 Chapter 5.
 ------------------------------------------------------------------------------
  5 Scheduling Heuristics
 ------------------------------------------------------------------------------
-[31
+[33
 
 ]
-<Pictures/siamese.png, id=789, 317.185pt x 237.88875pt>
+<Pictures/siamese.png, id=824, 317.185pt x 237.88875pt>
 File: Pictures/siamese.png Graphic file (type png)
 <use Pictures/siamese.png>
 Package pdftex.def Info: Pictures/siamese.png  used on input line 30.
 (pdftex.def)             Requested size: 142.73192pt x 107.04893pt.
- [32 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/siamese.png>]) (/Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter6.tex [33]
+ [34 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/siamese.png>]) (/Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter6.tex [35]
 Chapter 6.
 ------------------------------------------------------------------------------
  6 Experimental Results
 ------------------------------------------------------------------------------
-[34
+[36
 
 ]
 
 pdfTeX warning: pdflatex (file /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TransformerArch.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Pictures/TransformerArch.pdf, id=823, 793.96625pt x 482.80376pt>
+<Pictures/TransformerArch.pdf, id=858, 793.96625pt x 482.80376pt>
 File: Pictures/TransformerArch.pdf Graphic file (type pdf)
 <use Pictures/TransformerArch.pdf>
 Package pdftex.def Info: Pictures/TransformerArch.pdf  used on input line 30.
 (pdftex.def)             Requested size: 258.03596pt x 156.90936pt.
-[35] [36 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TransformerArch.pdf>]
-<Pictures/Expt-1.png, id=857, 576.1525pt x 381.425pt>
+[37] [38 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TransformerArch.pdf>]
+<Pictures/Expt-1.png, id=893, 576.1525pt x 381.425pt>
 File: Pictures/Expt-1.png Graphic file (type png)
 <use Pictures/Expt-1.png>
 Package pdftex.def Info: Pictures/Expt-1.png  used on input line 41.
 (pdftex.def)             Requested size: 259.26622pt x 171.63965pt.
- [37] [38 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/Expt-1.png>]
-<Pictures/Expt-2.png, id=869, 593.21625pt x 386.44376pt>
+ [39] [40 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/Expt-1.png>]
+<Pictures/Expt-2.png, id=905, 593.21625pt x 386.44376pt>
 File: Pictures/Expt-2.png Graphic file (type png)
 <use Pictures/Expt-2.png>
 Package pdftex.def Info: Pictures/Expt-2.png  used on input line 53.
 (pdftex.def)             Requested size: 266.94484pt x 173.89807pt.
- [39] [40 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/Expt-2.png>]
-<Pictures/Expt-3.png, id=884, 623.32875pt x 390.45876pt>
+ [41] [42 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/Expt-2.png>]
+<Pictures/Expt-3.png, id=919, 623.32875pt x 390.45876pt>
 File: Pictures/Expt-3.png Graphic file (type png)
 <use Pictures/Expt-3.png>
 Package pdftex.def Info: Pictures/Expt-3.png  used on input line 65.
 (pdftex.def)             Requested size: 280.49535pt x 175.7048pt.
- [41 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/Expt-3.png>]
-<Pictures/eager_gannt.png, id=891, 1007.765pt x 513.92pt>
+ [43 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/Expt-3.png>]
+<Pictures/eager_gannt.png, id=926, 1007.765pt x 513.92pt>
 File: Pictures/eager_gannt.png Graphic file (type png)
 <use Pictures/eager_gannt.png>
 Package pdftex.def Info: Pictures/eager_gannt.png  used on input line 74.
 (pdftex.def)             Requested size: 403.09886pt x 205.56435pt.
-<Pictures/best_gannt.png, id=892, 1038.88126pt x 503.8825pt>
+<Pictures/best_gannt.png, id=927, 1038.88126pt x 503.8825pt>
 File: Pictures/best_gannt.png Graphic file (type png)
 <use Pictures/best_gannt.png>
 Package pdftex.def Info: Pictures/best_gannt.png  used on input line 79.
 (pdftex.def)             Requested size: 415.54514pt x 201.54942pt.
-<Pictures/dynamic_heft_gannt.png, id=893, 1010.77625pt x 513.92pt>
+<Pictures/dynamic_heft_gannt.png, id=928, 1010.77625pt x 513.92pt>
 File: Pictures/dynamic_heft_gannt.png Graphic file (type png)
 <use Pictures/dynamic_heft_gannt.png>
 Package pdftex.def Info: Pictures/dynamic_heft_gannt.png  used on input line 84.
 (pdftex.def)             Requested size: 404.30333pt x 205.56435pt.
-) (/Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter7.tex [42] [43 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/eager_gannt.png> </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/best_gannt.png>] [44 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/dynamic_heft_gannt.png>]
+) (/Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter7.tex [44] [45 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/eager_gannt.png> </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/best_gannt.png>] [46 </Users/mahua2004/Desktop/MTP-II Thesis/Pictures/dynamic_heft_gannt.png>]
 Chapter 7.
 ------------------------------------------------------------------------------
  7 Conclusion
 ------------------------------------------------------------------------------
-) [45
+) [47
 
 ]
 ------------------------------------------------------------------------------
  Bibliography
 ------------------------------------------------------------------------------
-(/Users/mahua2004/Desktop/MTP-II Thesis/main.bbl [46
+(/Users/mahua2004/Desktop/MTP-II Thesis/main.bbl [48
 
 
-] [47] [48])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 286.
- [49]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 286.
+] [49] [50])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 285.
+ [51]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 285.
  (/Users/mahua2004/Desktop/MTP-II Thesis/main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 286.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 286.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 285.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 285.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AAC2E09CB4AB2602D9E8255AAFA61F84;5211.
-
-
-LaTeX Warning: There were undefined references.
-
+(rerunfilecheck)             Checksum: A9833E08547F7C00EF036BD701FB0553;5795.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 115 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 21413 strings out of 480608
- 349921 string characters out of 5903630
- 810523 words of memory out of 5000000
- 36712 multiletter control sequences out of 15000+600000
- 546308 words of font info for 75 fonts, out of 8000000 for 9000
+ 21438 strings out of 480608
+ 350212 string characters out of 5903630
+ 810869 words of memory out of 5000000
+ 36731 multiletter control sequences out of 15000+600000
+ 547626 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,13n,55p,2371b,1521s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,13n,55p,2223b,1518s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on "/Users/mahua2004/Desktop/MTP-II Thesis/main.pdf" (59 pages, 1577581 bytes).
+Output written on "/Users/mahua2004/Desktop/MTP-II Thesis/main.pdf" (60 pages, 1581436 bytes).
 PDF statistics:
- 1048 PDF objects out of 1200 (max. 8388607)
- 836 compressed objects within 9 object streams
- 182 named destinations out of 1000 (max. 500000)
- 362 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1084 PDF objects out of 1200 (max. 8388607)
+ 871 compressed objects within 9 object streams
+ 187 named destinations out of 1000 (max. 500000)
+ 386 words of extra memory for PDF output out of 10000 (max. 10000000)
 

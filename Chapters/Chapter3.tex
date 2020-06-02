@@ -6,7 +6,7 @@
 
 \lhead{Chapter 3 \emph{Problem Formulation}} % Change X to a consecutive number; this is for the header on each page - perhaps a shortened title
 
-\section{Motivation}
+\section{Motivation} \label{sec:motivation}
 We consider a transformer application \cite{DBLP:journals/corr/VaswaniSPUJGKP17} which is a popular Deep Learning Neural Network pipeline for Natural Language Processing (NLP) tasks. The application exhibits ample scopes for exploiting concurrency with the possibility of executing multiple instances of standard General Matrix Multiply (GEMM) kernels in parallel. A sample DAG for one layer of the transformer network is presented in Fig. \ref{fig:motivation0}. We shall discuss necessary background and details about the workload later in the Experimental Results section.  
 	\begin{figure}[ht]  
 		\centering
@@ -50,7 +50,12 @@ We consider a transformer application \cite{DBLP:journals/corr/VaswaniSPUJGKP17}
 		\includegraphics[scale=0.38]{Pictures/PlatformAndProblemFormulation.pdf}
 		\caption{\small Platform and DAG Model\label{fig:platprob}}
 	\end{figure}
-	\par Given an OpenCL DAG $G=\langle K,B,E_I,E_O,E \rangle$, we denote a task component $T_d$ as a subset of kernels $K^\prime \subseteq K$  where each kernel $k$ is mapped to the same device $d$. In our case, $d= \{ cpu,gpu \}$. In Fig. \ref{fig:platprob}, we have $T_{gpu} = \{k_0,k_1,k_2,k_3,k_4 \}$. For a given task component we define the following terminology.
+	
+	\begin{definition} \label{def:task-component}
+		\emph{Given an OpenCL DAG $G=\langle K,B,E_I,E_O,E \rangle$, we denote a task component $T_d$ as a subset of kernels $K^\prime \subseteq K$  where each kernel $k$ is mapped to the same device $d$.} 
+	\end{definition}
+
+	\par In our case, $d= \{ cpu,gpu \}$. In Fig. \ref{fig:platprob}, we have $T_{gpu} = \{k_0,k_1,k_2,k_3,k_4 \}$. For a given task component we define the following terminology.
 	\begin{definition}
 		\emph{Given a task component $T_d$ pertaining to some OpenCL DAG $G$, we define $FRONT(T_d)$ as the set of kernels where each kernel $k$ has input buffer dependencies $(b_i,k) \in E_I$ such that for $b_i$, if there exists an immediate predecessor $b_j$ where $(b_j,b_i)\in E$ and $(k^\prime,b_j) \in E_O$, then the kernel $k^\prime$ belongs to a different task component $T^\prime_{d'}$.} 
 	\end{definition}
@@ -98,4 +103,4 @@ We consider a transformer application \cite{DBLP:journals/corr/VaswaniSPUJGKP17}
 	\begin{definition}\emph{
 		Given a DAG $G = \langle K,B,E_I,E_O,E \rangle$,  a corresponding set of $m$ task components $\mathcal{T} = \lbrace T_{d_1}, T_{d_2}, \cdots, T_{d_p}\rbrace$ and a target heterogeneous CPU-GPU multicore platform $\mathcal{P} = \{d_1,d_2,\cdots d_p \}$ containing $p$ devices, a schedule $\sigma$ is an ordered sequence of enqueue procedures $enq(T_{d_1}), enq(T_{d_2}),\cdots,enq(T_{d_p})$ such that the kernels $k_i \in K$ is dispatched in a topologically sorted fashion i.e sorted with respect to the ordering of $k_i$'s enforced by the edges in $G$,  $k_1 \preceq k_2 \preceq \cdots, k_{|K|}$. } 
 	\end{definition}
-	\par In the remaining sections of the paper, we discuss the intricate details of both the frontends and the backends of the framework.
+	
