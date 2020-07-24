@@ -8,31 +8,34 @@
 
 \contentsline {chapter}{Contents}{vi}{dummy.9}%
 \contentsline {chapter}{List of Figures}{viii}{dummy.11}%
-\contentsline {chapter}{List of Tables}{ix}{dummy.13}%
-\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.15}%
-\contentsline {section}{\numberline {1.1}Introduction}{1}{section.16}%
-\contentsline {chapter}{\numberline {2}OpenCL Background and Related Work}{6}{chapter.18}%
-\contentsline {section}{\numberline {2.1}OpenCL Background}{6}{section.19}%
-\contentsline {section}{\numberline {2.2}Related Work}{9}{section.21}%
-\contentsline {chapter}{\numberline {3}Problem Formulation}{11}{chapter.22}%
-\contentsline {section}{\numberline {3.1}Motivation}{11}{section.23}%
-\contentsline {section}{\numberline {3.2}Formal Problem Statement}{16}{section.28}%
-\contentsline {chapter}{\numberline {4}Software Architecture}{21}{chapter.39}%
-\contentsline {section}{\numberline {4.1}Input File Specification}{22}{section.43}%
-\contentsline {section}{\numberline {4.2}Scheduling Backend}{26}{section.64}%
-\contentsline {chapter}{\numberline {5}Scheduling Heuristics}{31}{chapter.69}%
-\contentsline {section}{\numberline {5.1}Introduction}{31}{section.70}%
-\contentsline {section}{\numberline {5.2}The Default Policy}{31}{section.73}%
-\contentsline {section}{\numberline {5.3}The Eager Scheduling Policy}{32}{section.75}%
-\contentsline {section}{\numberline {5.4}The HEFT Scheduling Policy}{33}{section.78}%
-\contentsline {section}{\numberline {5.5}Machine Learning Assisted Scheduling}{33}{section.79}%
-\contentsline {chapter}{\numberline {6}Experimental Results}{34}{chapter.80}%
-\contentsline {section}{\numberline {6.1}Introduction}{34}{section.81}%
-\contentsline {section}{\numberline {6.2}The Transformer}{34}{section.82}%
-\contentsline {section}{\numberline {6.3}Experiment 1: Exhaustive Profiling}{36}{section.84}%
-\contentsline {section}{\numberline {6.4}Experiment 2: Clustering vs Eager Execution}{39}{section.86}%
-\contentsline {section}{\numberline {6.5}Experiment 3: Clustering vs HEFT}{41}{section.88}%
-\contentsline {chapter}{\numberline {7}Conclusion}{45}{chapter.93}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.13}%
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.14}%
+\contentsline {chapter}{\numberline {2}OpenCL Background and Related Work}{6}{chapter.16}%
+\contentsline {section}{\numberline {2.1}OpenCL Background}{6}{section.17}%
+\contentsline {section}{\numberline {2.2}Related Work}{9}{section.19}%
+\contentsline {chapter}{\numberline {3}Problem Formulation}{12}{chapter.20}%
+\contentsline {section}{\numberline {3.1}Motivation}{12}{section.21}%
+\contentsline {section}{\numberline {3.2}Formal Problem Statement}{17}{section.26}%
+\contentsline {chapter}{\numberline {4}Software Architecture}{22}{chapter.38}%
+\contentsline {section}{\numberline {4.1}Introduction}{22}{section.39}%
+\contentsline {section}{\numberline {4.2}Input File Specification}{23}{section.43}%
+\contentsline {section}{\numberline {4.3}Scheduling Backend}{27}{section.64}%
+\contentsline {subsection}{\numberline {4.3.1}Introduction}{27}{subsection.65}%
+\contentsline {subsection}{\numberline {4.3.2}The Two Scheduler Levels}{28}{subsection.68}%
+\contentsline {subsection}{\numberline {4.3.3}Scheduling Algorithm}{29}{subsection.69}%
+\contentsline {chapter}{\numberline {5}Scheduling Heuristics}{33}{chapter.73}%
+\contentsline {section}{\numberline {5.1}Introduction}{33}{section.74}%
+\contentsline {section}{\numberline {5.2}The Default Policy}{33}{section.77}%
+\contentsline {section}{\numberline {5.3}The Eager Scheduling Policy}{34}{section.79}%
+\contentsline {section}{\numberline {5.4}The HEFT Scheduling Policy}{35}{section.82}%
+\contentsline {section}{\numberline {5.5}Machine Learning Assisted Scheduling}{35}{section.83}%
+\contentsline {chapter}{\numberline {6}Experimental Results}{36}{chapter.84}%
+\contentsline {section}{\numberline {6.1}Introduction}{36}{section.85}%
+\contentsline {section}{\numberline {6.2}The Transformer}{36}{section.86}%
+\contentsline {section}{\numberline {6.3}Experiment 1: Exhaustive Profiling}{38}{section.88}%
+\contentsline {section}{\numberline {6.4}Experiment 2: Clustering vs Eager Execution}{41}{section.90}%
+\contentsline {section}{\numberline {6.5}Experiment 3: Clustering vs HEFT}{43}{section.92}%
+\contentsline {chapter}{\numberline {7}Conclusion}{47}{chapter.97}%
 \vspace {2em}
 
-\contentsline {chapter}{Bibliography}{46}{dummy.94}%
+\contentsline {chapter}{Bibliography}{48}{dummy.98}%

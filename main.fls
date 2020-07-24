@@ -291,9 +291,6 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam1
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 OUTPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.lof
-INPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.lot
-INPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.lot
-OUTPUT /Users/mahua2004/Desktop/MTP-II Thesis/main.lot
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter1.tex
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter1.tex
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
@@ -346,6 +343,9 @@ INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/json_file.pdf
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/DAGJson.pdf
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/DAGJson.pdf
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/DAGJson.pdf
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmti8.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmti7.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/SchedulingEngine.pdf
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/SchedulingEngine.pdf
@@ -358,6 +358,7 @@ INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter5.tex
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/siamese.png
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/siamese.png
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/siamese.png
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter6.tex
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Chapters/Chapter6.tex
 INPUT /Users/mahua2004/Desktop/MTP-II Thesis/Pictures/TransformerArch.pdf

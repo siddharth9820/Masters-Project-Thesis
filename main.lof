@@ -1,28 +1,28 @@
 \babel@toc {english}{}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces DAG Mapping Decisions \relax }}{2}{figure.caption.17}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces DAG Mapping Decisions \relax }}{2}{figure.caption.15}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces OpenCL Execution \relax }}{7}{figure.caption.20}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces OpenCL Execution \relax }}{8}{figure.caption.18}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Event Dependencies for DAG\relax }}{12}{figure.caption.24}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Command Queue Configurations for Scheduling \relax }}{13}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Sequential Execution on GPU device\relax }}{15}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Concurrent Execution on GPU device\relax }}{15}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces \small Platform and DAG Model\relax }}{17}{figure.caption.29}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Event Dependencies for DAG\relax }}{13}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Command Queue Configurations for Scheduling \relax }}{14}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Sequential Execution on GPU device\relax }}{16}{figure.caption.24}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Concurrent Execution on GPU device\relax }}{16}{figure.caption.25}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces \small Platform and DAG Model\relax }}{18}{figure.caption.27}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces PySchedCL Toolflow\relax }}{21}{figure.caption.40}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces JSON File for Matrix Multiplication \relax }}{24}{figure.caption.58}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces \small OpenCL DAG Specification\relax }}{25}{figure.caption.63}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces \small Command Queue Setup\relax }}{28}{figure.caption.67}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces \small Command Queue Setup\relax }}{28}{figure.caption.68}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces PySchedCL Toolflow\relax }}{22}{figure.caption.40}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces JSON File for Matrix Multiplication \relax }}{25}{figure.caption.58}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces \small OpenCL DAG Specification\relax }}{26}{figure.caption.63}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces \small Command Queue Setup\relax }}{30}{figure.caption.71}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces \small Command Queue Setup\relax }}{30}{figure.caption.72}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces \small Siamese Neural Network - $E_{1}$ and $E_{2}$ are two branches of the neural network that compute independently\relax }}{32}{figure.caption.74}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces \small Siamese Neural Network - $E_{1}$ and $E_{2}$ are two branches of the neural network that compute independently\relax }}{34}{figure.caption.78}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces \small Transformer Architecture\relax }}{36}{figure.caption.83}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces \small Speedup of best over default configuration \relax }}{38}{figure.caption.85}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces \small Clustering vs Eager \relax }}{40}{figure.caption.87}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces \small Clustering vs {\em heft} scheduling \relax }}{41}{figure.caption.89}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces \small Gannt chart for {\em eager} scheduling \relax }}{43}{figure.caption.90}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces \small Gannt chart for {\em cluster} scheduling \relax }}{43}{figure.caption.91}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces \small Gannt chart for {\em heft} scheduling \relax }}{44}{figure.caption.92}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces \small Transformer Architecture\relax }}{38}{figure.caption.87}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces \small Speedup of best over default configuration \relax }}{40}{figure.caption.89}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces \small Clustering vs Eager \relax }}{42}{figure.caption.91}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces \small Clustering vs {\em heft} scheduling \relax }}{43}{figure.caption.93}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces \small Gannt chart for {\em eager} scheduling \relax }}{45}{figure.caption.94}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces \small Gannt chart for {\em cluster} scheduling \relax }}{45}{figure.caption.95}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces \small Gannt chart for {\em heft} scheduling \relax }}{46}{figure.caption.96}%
 \addvspace {10\p@ }
