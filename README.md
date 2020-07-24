@@ -1,6 +1,4 @@
-This format has been developed by Sarthak Jain (Email: sarthakjain939@gmail.com) for help in writing a thesis as per standards followed in IIT Kharagpur with help from thesis templates from www.sharelatex.com. 
+#                                   Masters Project Thesis - Department of Computer Science and Engineering, IIT Kharagpur 
 
-Feel free to use this, improve and add your contribution to the KGP community. 
+##                 Title - PyschedCL : A Framework for Automatically Exploiting Concurrency in Heterogeneous Data-Parallel Applications
 
-Cheers!
-Sarthak
